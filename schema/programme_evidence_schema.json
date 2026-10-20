@@ -1,0 +1,217 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://illustrative.example/programme-evidence-schema-v0.2.json",
+  "title": "Illustrative Programme Evidence Hub prototype schema",
+  "type": "object",
+  "required": [
+    "programme",
+    "sources",
+    "evidence",
+    "decisions",
+    "evaluation_questions"
+  ],
+  "properties": {
+    "programme": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "asset",
+        "target",
+        "stage",
+        "next_gate"
+      ],
+      "additionalProperties": true
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/evidence"
+      }
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "question",
+          "outcome",
+          "rationale",
+          "evidence_snapshot"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "evaluation_questions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/evaluationQuestion"
+      }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "path",
+        "owner",
+        "access",
+        "checksum",
+        "ingestion_status",
+        "terminology_mappings"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "owner": {
+          "type": "string"
+        },
+        "access": {
+          "enum": [
+            "general",
+            "programme",
+            "restricted"
+          ]
+        },
+        "checksum": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "ingestion_status": {
+          "type": "string"
+        },
+        "terminology_mappings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "original_term",
+              "normalised_term",
+              "status"
+            ]
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "retrievalTrace": {
+      "type": "object",
+      "required": [
+        "trace_id",
+        "query",
+        "retrieval_route",
+        "ontology_concepts",
+        "source_location",
+        "human_review"
+      ],
+      "properties": {
+        "trace_id": {
+          "type": "string"
+        },
+        "query": {
+          "type": "string"
+        },
+        "retrieval_route": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ontology_concepts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "label",
+              "concept_id",
+              "scheme"
+            ]
+          }
+        },
+        "source_location": {
+          "type": "string"
+        },
+        "human_review": {
+          "type": "object",
+          "required": [
+            "status",
+            "reviewer_role",
+            "disposition"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "evidence": {
+      "type": "object",
+      "required": [
+        "id",
+        "domain",
+        "claim",
+        "source_id",
+        "locator",
+        "uncertainty",
+        "retrieval_trace"
+      ],
+      "properties": {
+        "retrieval_trace": {
+          "$ref": "#/$defs/retrievalTrace"
+        }
+      },
+      "additionalProperties": true
+    },
+    "evaluationQuestion": {
+      "type": "object",
+      "required": [
+        "id",
+        "question",
+        "expected",
+        "retrieved",
+        "citation_results",
+        "human_disposition"
+      ],
+      "properties": {
+        "expected": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "retrieved": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "citation_results": {
+          "type": "object"
+        },
+        "human_disposition": {
+          "type": "object",
+          "required": [
+            "status",
+            "reviewer_role",
+            "note"
+          ]
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

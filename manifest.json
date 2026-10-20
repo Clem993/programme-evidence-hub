@@ -1,0 +1,158 @@
+{
+  "package": "Programme Evidence Hub Demonstrator",
+  "version": "0.2.3",
+  "entry_point": "index.html",
+  "disclaimer": "All programme details, scientific findings, and organisations are illustrative. No real company or programme data is included.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "bc2beda5ebe354b4041934bbc1f4dfcf8bc935c55b75149a44fdc95ddcbe9439",
+      "bytes": 90
+    },
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "b204b45d71ab0244382753ca32174743b051883009b2e9a947909ba6da460e2b",
+      "bytes": 934
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "7b92acb197939c4f2e394f26399b402f9a1da8284e28b6aaafde16957e422a8d",
+      "bytes": 2030
+    },
+    {
+      "path": "DEMO_SCRIPT.md",
+      "sha256": "e01d74c99c422b36dae6f1ffb3cb957cecd4888f52ce5f00879eceef11ae40a7",
+      "bytes": 2331
+    },
+    {
+      "path": "README.md",
+      "sha256": "90bd09fffb5b39b6f791063064749af17144f3fec175b11efb4661348e3191c1",
+      "bytes": 4749
+    },
+    {
+      "path": "app.js",
+      "sha256": "931dedd2c12c501b4866af451f429e48d2df42c8e245041d2b73139cc7cf3299",
+      "bytes": 48124
+    },
+    {
+      "path": "architecture.svg",
+      "sha256": "d5cceff430ce96470a77aaa6ea1baf3b75e6c0df2cda0b1fb581eff647003865",
+      "bytes": 5175
+    },
+    {
+      "path": "config/role_access_policy.json",
+      "sha256": "b0315d2f13515322614b0b4bf6c632403fa354c6453736116ca122d1331c4146",
+      "bytes": 4192
+    },
+    {
+      "path": "config/role_access_policy.yaml",
+      "sha256": "b6d55ced450b6144c9d4ddf37d70ad0225d094ff97abb6244386c3c8485f1a0a",
+      "bytes": 3800
+    },
+    {
+      "path": "data/programme_data.json",
+      "sha256": "77605b2318b63f064781080f60e49003f0480d31b28ae575dfc2f7161f61e1c9",
+      "bytes": 89025
+    },
+    {
+      "path": "index.html",
+      "sha256": "122b881f27582e12cbbe3a118d6893ae289b64bf1bb8a2c24d54e9e7b931e110",
+      "bytes": 393179
+    },
+    {
+      "path": "module_to_capability_mapping.pdf",
+      "sha256": "91a4f3e4cd1ff54425095bdd9094159d885de38b0ef78e5f52547c47d7e41ffa",
+      "bytes": 3087
+    },
+    {
+      "path": "schema/programme_evidence_schema.json",
+      "sha256": "2bfeddddcd332651ca35293cf37eda7555571c50b33a3fe2e679e4e20806623d",
+      "bytes": 4477
+    },
+    {
+      "path": "serve_demo.py",
+      "sha256": "b5a4cdcabf8c0355aff4ea5010a42bfc3656f60ef9bdf22a28704c4fc7803b4e",
+      "bytes": 567
+    },
+    {
+      "path": "solution_strategy.md",
+      "sha256": "77055995398bee75dda28a9e4f2b696567f4c4ecab6a0f723595135e5064d148",
+      "bytes": 1801
+    },
+    {
+      "path": "sources/00_SOURCE_PACK_README.txt",
+      "sha256": "a6307d0356b461ee3695d4b3e18d0faf61ad9bd72a299f56d054b4bb96f27a7e",
+      "bytes": 295
+    },
+    {
+      "path": "sources/01_target_biology_review.pdf",
+      "sha256": "78152d1bef0390a636bbdd3d97dee7edb91f2ddbed46018ee3b2f939a59b68ee",
+      "bytes": 5170
+    },
+    {
+      "path": "sources/02_efficacy_results.csv",
+      "sha256": "7a26c4debb642efaee46078d95793adda8be228391d7f3126c5e53dd3a645682",
+      "bytes": 1916
+    },
+    {
+      "path": "sources/03_safety_update.pptx",
+      "sha256": "c8ce6c4a4e5e67517e2b3613311bfc988a0a341c8a294a2ab3dc49fed3870e3f",
+      "bytes": 32263
+    },
+    {
+      "path": "sources/04_cmc_summary.pdf",
+      "sha256": "2c3705ef60895dcdd01e407425c61b88bf27fd8ef703a3b73973d86bb5e92142",
+      "bytes": 2959
+    },
+    {
+      "path": "sources/05_governance_record.docx",
+      "sha256": "7ecdbd2a13c098834a42608383fc7219ba746309c4e7d297bdfaf7e17d7f5ce1",
+      "bytes": 36183
+    },
+    {
+      "path": "sources/06_competitive_intelligence_brief.pdf",
+      "sha256": "3a3964d58e64e7a86211f3859a243868e57240bf1d33fb4c0124f9b665adf487",
+      "bytes": 3905
+    },
+    {
+      "path": "sources/07_company_strategy_memo.pdf",
+      "sha256": "25fa683bdb989257f3a23a34398a21604f40afc028ec46df1ce14dbc4d778287",
+      "bytes": 2810
+    },
+    {
+      "path": "src/embedded_resources.json",
+      "sha256": "c6dc20ec335324bdaa3d49883ee5457f087e169f02c8ffe9c27d4ec60a1406b7",
+      "bytes": 1600
+    },
+    {
+      "path": "src/index.template.html",
+      "sha256": "ee63b1580b6c70ee5aca08500a78cdfe8e413bd8260dc5190e4eca9e6689c3ae",
+      "bytes": 2297
+    },
+    {
+      "path": "start_demo.bat",
+      "sha256": "c369a077a253e26e89b85071fb50bb426ab159e49027572d5f1f18497386f266",
+      "bytes": 37
+    },
+    {
+      "path": "start_demo.command",
+      "sha256": "5731662121416be4e774347476160773b46171f9f9c623bc1327814ae1a58661",
+      "bytes": 51
+    },
+    {
+      "path": "styles.css",
+      "sha256": "4c7546c5edd7a071cd86f0b9216478408179f7817578420cc8ef3942a78c7057",
+      "bytes": 13198
+    },
+    {
+      "path": "tools/build.py",
+      "sha256": "6d5507bf3e022f22cc8b3715e38ff18681ba7f37a4dee075bf32e792f79f39ac",
+      "bytes": 5422
+    }
+  ]
+}

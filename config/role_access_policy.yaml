@@ -1,0 +1,118 @@
+"policy_id": "PEH-GAC-001"
+"title": "Illustrative Programme Evidence Hub role and access policy"
+"version": "1.0.1"
+"effective_date": "2026-10-10"
+"default_role": "Translational & Preclinical Lead"
+"implicit_deny": true
+"classification_order":
+  "general": 1
+  "programme": 2
+  "restricted": 3
+"registry_policy":
+  "metadata_visibility": "all_authenticated_roles"
+  "content_access_rule": "role permitted classifications must include source classification"
+  "restricted_content_behaviour": "show metadata, gate source artefact"
+"evidence_policy":
+  "rule": "visible domain AND permitted classification AND explicit role membership"
+  "audit_policy_decisions": true
+  "unintroduced_signal_evidence_hidden": true
+"decision_policy":
+  "agent_can_approve": false
+  "human_review_required": true
+  "rationale_owner": "named governance role"
+"roles":
+  "Discovery Scientist":
+    "description": "Detailed biological rationale, assay evidence and unresolved scientific questions."
+    "landing_note": "Your view prioritises direct programme evidence, assay limitations and the next experiments required."
+    "visible_domains":
+      - "Biology"
+      - "Efficacy"
+      - "Safety"
+      - "Competitive Intelligence"
+    "permitted_classifications":
+      - "general"
+      - "programme"
+    "allowed_views":
+      - "overview"
+      - "decision"
+      - "evidence"
+      - "registry"
+      - "signals"
+      - "handover"
+      - "evaluation"
+      - "technical"
+    "can_activate_signals": true
+    "can_record_governance_review": false
+  "Translational & Preclinical Lead":
+    "description": "Cross-domain evidence needed to translate the candidate into an IND-enabling plan."
+    "landing_note": "Your view prioritises safety translation, biomarker strategy, CMC readiness and discovery-to-preclinical handover."
+    "visible_domains":
+      - "Biology"
+      - "Efficacy"
+      - "Safety"
+      - "Developability / CMC"
+      - "Competitive Intelligence"
+    "permitted_classifications":
+      - "general"
+      - "programme"
+      - "restricted"
+    "allowed_views":
+      - "overview"
+      - "decision"
+      - "evidence"
+      - "registry"
+      - "signals"
+      - "handover"
+      - "evaluation"
+      - "technical"
+    "can_activate_signals": true
+    "can_record_governance_review": true
+  "Programme Manager":
+    "description": "Decision status, dependencies, owners, milestones and handover commitments."
+    "landing_note": "Your view prioritises decision criteria, actions, ownership, dependencies and governance timing."
+    "visible_domains":
+      - "Biology"
+      - "Efficacy"
+      - "Safety"
+      - "Developability / CMC"
+      - "Competitive Intelligence"
+      - "Company Strategy"
+    "permitted_classifications":
+      - "general"
+      - "programme"
+    "allowed_views":
+      - "overview"
+      - "decision"
+      - "evidence"
+      - "registry"
+      - "signals"
+      - "handover"
+      - "evaluation"
+      - "technical"
+    "can_activate_signals": true
+    "can_record_governance_review": true
+  "Portfolio Leader":
+    "description": "Decision summary, strategic fit, differentiation, risk and portfolio implications."
+    "landing_note": "Your view prioritises the decision case, strategic fit, competitive position and conditions for capital commitment."
+    "visible_domains":
+      - "Biology"
+      - "Efficacy"
+      - "Safety"
+      - "Developability / CMC"
+      - "Competitive Intelligence"
+      - "Company Strategy"
+    "permitted_classifications":
+      - "general"
+      - "programme"
+      - "restricted"
+    "allowed_views":
+      - "overview"
+      - "decision"
+      - "evidence"
+      - "registry"
+      - "signals"
+      - "handover"
+      - "evaluation"
+      - "technical"
+    "can_activate_signals": false
+    "can_record_governance_review": true

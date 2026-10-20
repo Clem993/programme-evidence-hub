@@ -1,0 +1,54 @@
+{
+  "architecture.svg": {
+    "mime": "image/svg+xml",
+    "name": "architecture.svg"
+  },
+  "schema/programme_evidence_schema.json": {
+    "mime": "application/json",
+    "name": "programme_evidence_schema.json"
+  },
+  "data/programme_data.json": {
+    "mime": "application/json",
+    "name": "programme_data.json"
+  },
+  "config/role_access_policy.json": {
+    "mime": "application/json",
+    "name": "role_access_policy.json"
+  },
+  "config/role_access_policy.yaml": {
+    "mime": "text/yaml",
+    "name": "role_access_policy.yaml"
+  },
+  "module_to_capability_mapping.pdf": {
+    "mime": "application/pdf",
+    "name": "module_to_capability_mapping.pdf"
+  },
+  "sources/06_competitive_intelligence_brief.pdf": {
+    "mime": "application/pdf",
+    "name": "06_competitive_intelligence_brief.pdf"
+  },
+  "sources/07_company_strategy_memo.pdf": {
+    "mime": "application/pdf",
+    "name": "07_company_strategy_memo.pdf"
+  },
+  "sources/02_efficacy_results.csv": {
+    "mime": "text/csv",
+    "name": "02_efficacy_results.csv"
+  },
+  "sources/01_target_biology_review.pdf": {
+    "mime": "application/pdf",
+    "name": "01_target_biology_review.pdf"
+  },
+  "sources/04_cmc_summary.pdf": {
+    "mime": "application/pdf",
+    "name": "04_cmc_summary.pdf"
+  },
+  "sources/03_safety_update.pptx": {
+    "mime": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "name": "03_safety_update.pptx"
+  },
+  "sources/05_governance_record.docx": {
+    "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "name": "05_governance_record.docx"
+  }
+}

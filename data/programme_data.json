@@ -1,0 +1,2516 @@
+{
+  "programme": {
+    "id": "PEH-A17",
+    "name": "Project AURORA",
+    "asset": "A17-03",
+    "target": "TAA-17 (illustrative target)",
+    "modality": "Fc-silenced humanised IgG1 monoclonal antibody",
+    "indication": "Platinum-resistant ovarian cancer",
+    "stage": "Lead optimisation / candidate nomination",
+    "owner": "Dr Elena Fischer",
+    "next_gate": "Development Candidate Nomination",
+    "gate_date": "18 November 2026",
+    "status": "Evidence review",
+    "question": "Should A17-03 advance into IND-enabling development?",
+    "recommendation": "Conditional nomination",
+    "last_review": "28 September 2026",
+    "strategy": "Prioritise biomarker-defined antibody programmes with an explicit normal-tissue risk-mitigation path.",
+    "disclaimer": "All programme details, scientific findings, and organisations are illustrative. No real company or programme data is included."
+  },
+  "sources": [
+    {
+      "id": "SRC-001",
+      "title": "Illustrative Target Biology Review",
+      "type": "PDF",
+      "path": "sources/01_target_biology_review.pdf",
+      "date": "2026-09-18",
+      "owner": "Discovery Biology",
+      "access": "programme",
+      "version": "1.2",
+      "checksum": "78152d1bef0390a636bbdd3d97dee7edb91f2ddbed46018ee3b2f939a59b68ee",
+      "preview": "Target expression, internalisation, shedding and biomarker-assay findings for the illustrative TAA-17 programme.",
+      "locations": [
+        "p.1 target expression",
+        "p.1 internalisation",
+        "p.2 limitations and biomarker performance"
+      ],
+      "mime_type": "application/pdf",
+      "source_system": "Illustrative programme document repository",
+      "authoritative_location": "/programmes/AURORA/biology/target_biology_review_v1.2.pdf",
+      "ingestion_status": "Scientifically reviewed",
+      "ingested_at": "2026-09-18T14:30:00+01:00",
+      "last_reviewed": "2026-09-22",
+      "steward": "Discovery Biology Data Steward",
+      "lineage": [
+        "Registered",
+        "Text and table extraction",
+        "Scientific curation",
+        "Approved for prototype"
+      ],
+      "terminology_mappings": [
+        {
+          "original_term": "TAA17",
+          "normalised_term": "TAA-17",
+          "concept_id": "PEH-TGT-001",
+          "scheme": "Illustrative programme vocabulary",
+          "status": "Approved"
+        },
+        {
+          "original_term": "ovarian tumour",
+          "normalised_term": "ovarian carcinoma tissue",
+          "concept_id": "PEH-DIS-004",
+          "scheme": "Illustrative disease vocabulary",
+          "status": "Approved"
+        },
+        {
+          "original_term": "IHC",
+          "normalised_term": "immunohistochemistry",
+          "concept_id": "PEH-ASSAY-011",
+          "scheme": "Illustrative assay vocabulary",
+          "status": "Approved"
+        }
+      ],
+      "access_policy_id": "PEH-GAC-001",
+      "file_size_bytes": 5170,
+      "checksum_algorithm": "SHA-256"
+    },
+    {
+      "id": "SRC-002",
+      "title": "A17-03 Efficacy Results",
+      "type": "CSV",
+      "path": "sources/02_efficacy_results.csv",
+      "date": "2026-09-27",
+      "owner": "In Vitro & In Vivo Pharmacology",
+      "access": "programme",
+      "version": "2026-09-27",
+      "checksum": "7a26c4debb642efaee46078d95793adda8be228391d7f3126c5e53dd3a645682",
+      "preview": "Structured assay export covering potency, expression-stratified activity, PDX response and exposure-response observations.",
+      "locations": [
+        "rows 2-8 in vitro potency",
+        "rows 9-15 PDX response",
+        "rows 16-18 exposure-response"
+      ],
+      "mime_type": "text/csv",
+      "source_system": "Illustrative assay results store",
+      "authoritative_location": "/programmes/AURORA/pharmacology/efficacy_results_2026-09-27.csv",
+      "ingestion_status": "Validated",
+      "ingested_at": "2026-09-27T17:10:00+01:00",
+      "last_reviewed": "2026-09-29",
+      "steward": "Pharmacology Data Steward",
+      "lineage": [
+        "Registered",
+        "Schema validation",
+        "Identifier normalisation",
+        "Scientifically reviewed"
+      ],
+      "terminology_mappings": [
+        {
+          "original_term": "A17_03",
+          "normalised_term": "A17-03",
+          "concept_id": "PEH-AST-003",
+          "scheme": "Illustrative asset vocabulary",
+          "status": "Approved"
+        },
+        {
+          "original_term": "PDX",
+          "normalised_term": "patient-derived xenograft",
+          "concept_id": "PEH-MOD-018",
+          "scheme": "Illustrative model vocabulary",
+          "status": "Approved"
+        },
+        {
+          "original_term": "IC50_nM",
+          "normalised_term": "half-maximal inhibitory concentration",
+          "concept_id": "PEH-END-006",
+          "scheme": "Illustrative endpoint vocabulary",
+          "status": "Approved"
+        }
+      ],
+      "access_policy_id": "PEH-GAC-001",
+      "file_size_bytes": 1916,
+      "checksum_algorithm": "SHA-256"
+    },
+    {
+      "id": "SRC-003",
+      "title": "Safety Assessment Update",
+      "type": "PowerPoint",
+      "path": "sources/03_safety_update.pptx",
+      "date": "2026-10-02",
+      "owner": "Safety Sciences",
+      "access": "restricted",
+      "version": "0.9",
+      "checksum": "c8ce6c4a4e5e67517e2b3613311bfc988a0a341c8a294a2ab3dc49fed3870e3f",
+      "preview": "Normal-tissue binding, cytokine-release, platelet-risk and pilot repeat-dose findings, with explicit translational limitations.",
+      "locations": [
+        "slide 2 tissue binding",
+        "slide 3 cytokine and platelet assays",
+        "slide 4 pilot tox and limitations"
+      ],
+      "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "source_system": "Illustrative safety workspace",
+      "authoritative_location": "/programmes/AURORA/safety/safety_update_v0.9.pptx",
+      "ingestion_status": "Scientifically reviewed",
+      "ingested_at": "2026-10-02T16:20:00+01:00",
+      "last_reviewed": "2026-10-05",
+      "steward": "Safety Sciences Data Steward",
+      "lineage": [
+        "Registered",
+        "Slide segmentation",
+        "Metadata enrichment",
+        "Specialist review"
+      ],
+      "terminology_mappings": [
+        {
+          "original_term": "corneal signal",
+          "normalised_term": "corneal epithelium binding",
+          "concept_id": "PEH-SAF-021",
+          "scheme": "Illustrative safety vocabulary",
+          "status": "Approved"
+        },
+        {
+          "original_term": "platelet drop",
+          "normalised_term": "thrombocytopenia",
+          "concept_id": "PEH-AE-014",
+          "scheme": "Illustrative adverse-event vocabulary",
+          "status": "Approved"
+        },
+        {
+          "original_term": "cross-reactive species",
+          "normalised_term": "informative toxicology species",
+          "concept_id": "PEH-TOX-007",
+          "scheme": "Illustrative toxicology vocabulary",
+          "status": "Approved"
+        }
+      ],
+      "access_policy_id": "PEH-GAC-001",
+      "file_size_bytes": 32263,
+      "checksum_algorithm": "SHA-256"
+    },
+    {
+      "id": "SRC-004",
+      "title": "CMC and Developability Summary",
+      "type": "PDF",
+      "path": "sources/04_cmc_summary.pdf",
+      "date": "2026-10-04",
+      "owner": "Biologics CMC",
+      "access": "programme",
+      "version": "1.0",
+      "checksum": "2c3705ef60895dcdd01e407425c61b88bf27fd8ef703a3b73973d86bb5e92142",
+      "preview": "Yield, aggregation, concentration-dependent viscosity, glycan profile and formulation work required before nomination.",
+      "locations": [
+        "p.1 developability table",
+        "p.2 formulation risks and next work"
+      ],
+      "mime_type": "application/pdf",
+      "source_system": "Illustrative CMC repository",
+      "authoritative_location": "/programmes/AURORA/cmc/developability_summary_v1.0.pdf",
+      "ingestion_status": "Scientifically reviewed",
+      "ingested_at": "2026-10-04T12:00:00+01:00",
+      "last_reviewed": "2026-10-06",
+      "steward": "Biologics CMC Data Steward",
+      "lineage": [
+        "Registered",
+        "Table extraction",
+        "Unit normalisation",
+        "Scientifically reviewed"
+      ],
+      "terminology_mappings": [
+        {
+          "original_term": "monomer %",
+          "normalised_term": "monomeric fraction",
+          "concept_id": "PEH-CMC-003",
+          "scheme": "Illustrative CMC vocabulary",
+          "status": "Approved"
+        },
+        {
+          "original_term": "high concentration",
+          "normalised_term": "150 mg/mL formulation",
+          "concept_id": "PEH-FRM-015",
+          "scheme": "Illustrative formulation vocabulary",
+          "status": "Approved"
+        },
+        {
+          "original_term": "titre",
+          "normalised_term": "stable-pool expression titre",
+          "concept_id": "PEH-MFG-008",
+          "scheme": "Illustrative manufacturing vocabulary",
+          "status": "Approved"
+        }
+      ],
+      "access_policy_id": "PEH-GAC-001",
+      "file_size_bytes": 2959,
+      "checksum_algorithm": "SHA-256"
+    },
+    {
+      "id": "SRC-005",
+      "title": "Lead Selection Governance Record",
+      "type": "Word",
+      "path": "sources/05_governance_record.docx",
+      "date": "2026-07-12",
+      "owner": "Programme Governance",
+      "access": "programme",
+      "version": "final",
+      "checksum": "7ecdbd2a13c098834a42608383fc7219ba746309c4e7d297bdfaf7e17d7f5ce1",
+      "preview": "Historical lead-selection decision, rationale, accepted risks, dissent, conditions and named follow-up actions.",
+      "locations": [
+        "Decision record section",
+        "Evidence snapshot table",
+        "Conditions and reconsideration triggers"
+      ],
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "source_system": "Illustrative governance records",
+      "authoritative_location": "/programmes/AURORA/governance/lead_selection_record_final.docx",
+      "ingestion_status": "Approved decision record",
+      "ingested_at": "2026-07-12T18:15:00+01:00",
+      "last_reviewed": "2026-07-12",
+      "steward": "Programme Governance Secretary",
+      "lineage": [
+        "Registered",
+        "Decision-object extraction",
+        "Evidence snapshot linked",
+        "Approved and locked"
+      ],
+      "terminology_mappings": [
+        {
+          "original_term": "lead selection",
+          "normalised_term": "construct selection decision",
+          "concept_id": "PEH-DEC-002",
+          "scheme": "Illustrative governance vocabulary",
+          "status": "Approved"
+        },
+        {
+          "original_term": "DC nomination",
+          "normalised_term": "development candidate nomination",
+          "concept_id": "PEH-GATE-004",
+          "scheme": "Illustrative lifecycle vocabulary",
+          "status": "Approved"
+        }
+      ],
+      "access_policy_id": "PEH-GAC-001",
+      "file_size_bytes": 36183,
+      "checksum_algorithm": "SHA-256"
+    },
+    {
+      "id": "SRC-006",
+      "title": "Competitive Intelligence Brief",
+      "type": "PDF",
+      "path": "sources/06_competitive_intelligence_brief.pdf",
+      "date": "2026-10-08",
+      "owner": "Competitive Intelligence",
+      "access": "programme",
+      "version": "2.1",
+      "checksum": "3a3964d58e64e7a86211f3859a243868e57240bf1d33fb4c0124f9b665adf487",
+      "preview": "Illustrative competitor landscape and a simulated external safety update used to trigger review of the programme decision.",
+      "locations": [
+        "p.1 landscape",
+        "p.2 simulated safety signal and implications"
+      ],
+      "mime_type": "application/pdf",
+      "source_system": "Illustrative external-intelligence feed",
+      "authoritative_location": "/programmes/AURORA/competitive_intelligence/brief_v2.1.pdf",
+      "ingestion_status": "Curated external signal",
+      "ingested_at": "2026-10-08T08:45:00+01:00",
+      "last_reviewed": "2026-10-08",
+      "steward": "Competitive Intelligence Steward",
+      "lineage": [
+        "Registered",
+        "Entity linking",
+        "Recency and materiality triage",
+        "Awaiting programme disposition"
+      ],
+      "terminology_mappings": [
+        {
+          "original_term": "class safety",
+          "normalised_term": "target-class safety signal",
+          "concept_id": "PEH-CI-012",
+          "scheme": "Illustrative intelligence vocabulary",
+          "status": "Approved"
+        },
+        {
+          "original_term": "ocular tox",
+          "normalised_term": "keratitis safety signal",
+          "concept_id": "PEH-AE-026",
+          "scheme": "Illustrative adverse-event vocabulary",
+          "status": "Approved"
+        },
+        {
+          "original_term": "biomarker enriched",
+          "normalised_term": "biomarker-enriched enrolment",
+          "concept_id": "PEH-TRIAL-009",
+          "scheme": "Illustrative trial-design vocabulary",
+          "status": "Approved"
+        }
+      ],
+      "access_policy_id": "PEH-GAC-001",
+      "file_size_bytes": 3905,
+      "checksum_algorithm": "SHA-256"
+    },
+    {
+      "id": "SRC-007",
+      "title": "2027 Antibody Portfolio Direction",
+      "type": "PDF",
+      "path": "sources/07_company_strategy_memo.pdf",
+      "date": "2026-09-30",
+      "owner": "R&D Strategy",
+      "access": "restricted",
+      "version": "approved",
+      "checksum": "25fa683bdb989257f3a23a34398a21604f40afc028ec46df1ce14dbc4d778287",
+      "preview": "Illustrative leadership directive covering biomarker-defined programmes, normal-tissue risk mitigation and portfolio capacity.",
+      "locations": [
+        "p.1 strategic priorities and constraints"
+      ],
+      "mime_type": "application/pdf",
+      "source_system": "Illustrative strategy repository",
+      "authoritative_location": "/strategy/2027_antibody_portfolio_direction_approved.pdf",
+      "ingestion_status": "Approved strategic directive",
+      "ingested_at": "2026-09-30T18:00:00+01:00",
+      "last_reviewed": "2026-09-30",
+      "steward": "R&D Strategy Steward",
+      "lineage": [
+        "Registered",
+        "Directive extraction",
+        "Programme relationship mapping",
+        "Approved and active"
+      ],
+      "terminology_mappings": [
+        {
+          "original_term": "portfolio priority",
+          "normalised_term": "strategic programme priority",
+          "concept_id": "PEH-STR-001",
+          "scheme": "Illustrative strategy vocabulary",
+          "status": "Approved"
+        },
+        {
+          "original_term": "risk mitigation path",
+          "normalised_term": "normal-tissue risk-mitigation plan",
+          "concept_id": "PEH-STR-009",
+          "scheme": "Illustrative strategy vocabulary",
+          "status": "Approved"
+        }
+      ],
+      "access_policy_id": "PEH-GAC-001",
+      "file_size_bytes": 2810,
+      "checksum_algorithm": "SHA-256"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-001",
+      "domain": "Biology",
+      "claim": "TAA-17 shows high or moderate membranous expression in 34 of 50 profiled ovarian tumour samples.",
+      "direction": "Supports",
+      "directness": "Direct programme evidence",
+      "quality": "Moderate",
+      "consistency": "Consistent",
+      "applicability": "High",
+      "date": "2026-09-18",
+      "status": "Accepted",
+      "source_id": "SRC-001",
+      "locator": "p.1, Table 1",
+      "criterion": "Biological rationale & patient selection",
+      "access": "programme",
+      "roles": [
+        "Discovery Scientist",
+        "Translational & Preclinical Lead",
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Small retrospective tissue set; assay cut-off is provisional.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-001",
+        "query": "What biological and biomarker evidence changes the candidate-nomination decision for TAA-17?",
+        "retrieval_route": [
+          "ontology expansion",
+          "hybrid semantic and keyword retrieval",
+          "page and table locator resolution"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "Project AURORA",
+            "concept_id": "PEH-PRG-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "TAA-17",
+            "concept_id": "PEH-TGT-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "biological rationale",
+            "concept_id": "PEH-DEC-010",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "patient selection",
+            "concept_id": "PEH-BMK-004",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "p.1, Table 1",
+        "source_id": "SRC-001",
+        "retrieval_rank": 1,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Discovery Biology reviewer",
+          "review_date": "2026-09-18",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-002",
+      "domain": "Biology",
+      "claim": "Expression is heterogeneous within and between tumours, with 16 of 50 samples below the provisional biomarker cut-off.",
+      "direction": "Challenges",
+      "directness": "Direct programme evidence",
+      "quality": "Moderate",
+      "consistency": "Consistent",
+      "applicability": "High",
+      "date": "2026-09-18",
+      "status": "Accepted",
+      "source_id": "SRC-001",
+      "locator": "p.1, Table 1",
+      "criterion": "Biological rationale & patient selection",
+      "access": "programme",
+      "roles": [
+        "Discovery Scientist",
+        "Translational & Preclinical Lead",
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Sampling may under-represent intra-tumour heterogeneity.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-002",
+        "query": "What biological and biomarker evidence changes the candidate-nomination decision for TAA-17?",
+        "retrieval_route": [
+          "ontology expansion",
+          "hybrid semantic and keyword retrieval",
+          "page and table locator resolution"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "Project AURORA",
+            "concept_id": "PEH-PRG-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "TAA-17",
+            "concept_id": "PEH-TGT-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "biological rationale",
+            "concept_id": "PEH-DEC-010",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "patient selection",
+            "concept_id": "PEH-BMK-004",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "p.1, Table 1",
+        "source_id": "SRC-001",
+        "retrieval_rank": 2,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Discovery Biology reviewer",
+          "review_date": "2026-09-18",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-003",
+      "domain": "Biology",
+      "claim": "A17-03 induces receptor internalisation with a median half-time of 42 minutes in high-expression cell models.",
+      "direction": "Supports",
+      "directness": "Direct programme evidence",
+      "quality": "High",
+      "consistency": "Consistent",
+      "applicability": "High",
+      "date": "2026-09-14",
+      "status": "Accepted",
+      "source_id": "SRC-001",
+      "locator": "p.1, Figure 1",
+      "criterion": "Biological rationale & patient selection",
+      "access": "programme",
+      "roles": [
+        "Discovery Scientist",
+        "Translational & Preclinical Lead"
+      ],
+      "uncertainty": "Measured in three engineered and two patient-derived models.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-003",
+        "query": "What biological and biomarker evidence changes the candidate-nomination decision for TAA-17?",
+        "retrieval_route": [
+          "ontology expansion",
+          "hybrid semantic and keyword retrieval",
+          "page and table locator resolution"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "Project AURORA",
+            "concept_id": "PEH-PRG-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "TAA-17",
+            "concept_id": "PEH-TGT-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "biological rationale",
+            "concept_id": "PEH-DEC-010",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "patient selection",
+            "concept_id": "PEH-BMK-004",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "p.1, Figure 1",
+        "source_id": "SRC-001",
+        "retrieval_rank": 3,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Discovery Biology reviewer",
+          "review_date": "2026-09-14",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-004",
+      "domain": "Biology",
+      "claim": "Soluble TAA-17 ectodomain was detectable in 7 of 20 plasma samples and may reduce free-antibody exposure in a subset of patients.",
+      "direction": "Challenges",
+      "directness": "Direct programme evidence",
+      "quality": "Low",
+      "consistency": "Mixed",
+      "applicability": "Moderate",
+      "date": "2026-09-18",
+      "status": "Awaiting review",
+      "source_id": "SRC-001",
+      "locator": "p.2, Limitations",
+      "criterion": "Biological rationale & patient selection",
+      "access": "programme",
+      "roles": [
+        "Discovery Scientist",
+        "Translational & Preclinical Lead"
+      ],
+      "uncertainty": "Exploratory assay; no exposure-response linkage yet.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-004",
+        "query": "What biological and biomarker evidence changes the candidate-nomination decision for TAA-17?",
+        "retrieval_route": [
+          "ontology expansion",
+          "hybrid semantic and keyword retrieval",
+          "page and table locator resolution"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "Project AURORA",
+            "concept_id": "PEH-PRG-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "TAA-17",
+            "concept_id": "PEH-TGT-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "biological rationale",
+            "concept_id": "PEH-DEC-010",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "patient selection",
+            "concept_id": "PEH-BMK-004",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "p.2, Limitations",
+        "source_id": "SRC-001",
+        "retrieval_rank": 4,
+        "human_review": {
+          "status": "Awaiting specialist review",
+          "reviewer_role": "Discovery Biology reviewer",
+          "review_date": null,
+          "disposition": "Pending review before use in governance"
+        }
+      }
+    },
+    {
+      "id": "E-005",
+      "domain": "Biology",
+      "claim": "The prototype IHC biomarker assay separates high- and low-expression reference samples with an illustrative cross-validated AUC of 0.86.",
+      "direction": "Supports",
+      "directness": "Direct programme evidence",
+      "quality": "Moderate",
+      "consistency": "Consistent",
+      "applicability": "High",
+      "date": "2026-09-18",
+      "status": "Accepted",
+      "source_id": "SRC-001",
+      "locator": "p.2, Biomarker section",
+      "criterion": "Biological rationale & patient selection",
+      "access": "programme",
+      "roles": [
+        "Discovery Scientist",
+        "Translational & Preclinical Lead",
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Cut-off and inter-laboratory reproducibility are not locked.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-005",
+        "query": "What biological and biomarker evidence changes the candidate-nomination decision for TAA-17?",
+        "retrieval_route": [
+          "ontology expansion",
+          "hybrid semantic and keyword retrieval",
+          "page and table locator resolution"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "Project AURORA",
+            "concept_id": "PEH-PRG-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "TAA-17",
+            "concept_id": "PEH-TGT-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "biological rationale",
+            "concept_id": "PEH-DEC-010",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "patient selection",
+            "concept_id": "PEH-BMK-004",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "p.2, Biomarker section",
+        "source_id": "SRC-001",
+        "retrieval_rank": 1,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Discovery Biology reviewer",
+          "review_date": "2026-09-18",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-006",
+      "domain": "Efficacy",
+      "claim": "A17-03 achieved a median cellular IC50 of 0.8 nM across high-expression models.",
+      "direction": "Supports",
+      "directness": "Direct programme evidence",
+      "quality": "High",
+      "consistency": "Consistent",
+      "applicability": "High",
+      "date": "2026-09-27",
+      "status": "Accepted",
+      "source_id": "SRC-002",
+      "locator": "rows 2-6",
+      "criterion": "Efficacy & differentiation",
+      "access": "programme",
+      "roles": [
+        "Discovery Scientist",
+        "Translational & Preclinical Lead",
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "In vitro models do not reproduce the full tumour microenvironment.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-006",
+        "query": "Which A17-03 efficacy findings support or challenge differentiation at candidate nomination?",
+        "retrieval_route": [
+          "structured field filtering",
+          "ontology-normalised value match",
+          "row-level retrieval"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "efficacy",
+            "concept_id": "PEH-DOM-002",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "patient-derived xenograft",
+            "concept_id": "PEH-MOD-018",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "exposure-response",
+            "concept_id": "PEH-PKPD-006",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "rows 2-6",
+        "source_id": "SRC-002",
+        "retrieval_rank": 2,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Pharmacology reviewer",
+          "review_date": "2026-09-27",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-007",
+      "domain": "Efficacy",
+      "claim": "Low-expression models showed limited activity at clinically plausible concentrations.",
+      "direction": "Challenges",
+      "directness": "Direct programme evidence",
+      "quality": "High",
+      "consistency": "Consistent",
+      "applicability": "High",
+      "date": "2026-09-27",
+      "status": "Accepted",
+      "source_id": "SRC-002",
+      "locator": "rows 7-8",
+      "criterion": "Efficacy & differentiation",
+      "access": "programme",
+      "roles": [
+        "Discovery Scientist",
+        "Translational & Preclinical Lead",
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Supports biomarker selection but narrows the likely addressable population.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-007",
+        "query": "Which A17-03 efficacy findings support or challenge differentiation at candidate nomination?",
+        "retrieval_route": [
+          "structured field filtering",
+          "ontology-normalised value match",
+          "row-level retrieval"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "efficacy",
+            "concept_id": "PEH-DOM-002",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "patient-derived xenograft",
+            "concept_id": "PEH-MOD-018",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "exposure-response",
+            "concept_id": "PEH-PKPD-006",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "rows 7-8",
+        "source_id": "SRC-002",
+        "retrieval_rank": 3,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Pharmacology reviewer",
+          "review_date": "2026-09-27",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-008",
+      "domain": "Efficacy",
+      "claim": "A17-03 produced tumour regression in four of six high-expression PDX models.",
+      "direction": "Supports",
+      "directness": "Direct programme evidence",
+      "quality": "Moderate",
+      "consistency": "Mixed",
+      "applicability": "High",
+      "date": "2026-09-27",
+      "status": "Accepted",
+      "source_id": "SRC-002",
+      "locator": "rows 9-14",
+      "criterion": "Efficacy & differentiation",
+      "access": "programme",
+      "roles": [
+        "Discovery Scientist",
+        "Translational & Preclinical Lead",
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Small model set; two high-expression PDX models did not regress.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-008",
+        "query": "Which A17-03 efficacy findings support or challenge differentiation at candidate nomination?",
+        "retrieval_route": [
+          "structured field filtering",
+          "ontology-normalised value match",
+          "row-level retrieval"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "efficacy",
+            "concept_id": "PEH-DOM-002",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "patient-derived xenograft",
+            "concept_id": "PEH-MOD-018",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "exposure-response",
+            "concept_id": "PEH-PKPD-006",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "rows 9-14",
+        "source_id": "SRC-002",
+        "retrieval_rank": 4,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Pharmacology reviewer",
+          "review_date": "2026-09-27",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-009",
+      "domain": "Efficacy",
+      "claim": "Exposure-response plateaued above 10 mg/kg in the responsive PDX models.",
+      "direction": "Context",
+      "directness": "Direct programme evidence",
+      "quality": "Moderate",
+      "consistency": "Consistent",
+      "applicability": "Moderate",
+      "date": "2026-09-27",
+      "status": "Accepted",
+      "source_id": "SRC-002",
+      "locator": "rows 16-18",
+      "criterion": "Efficacy & differentiation",
+      "access": "programme",
+      "roles": [
+        "Discovery Scientist",
+        "Translational & Preclinical Lead"
+      ],
+      "uncertainty": "Translation to human dose is not established.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-009",
+        "query": "Which A17-03 efficacy findings support or challenge differentiation at candidate nomination?",
+        "retrieval_route": [
+          "structured field filtering",
+          "ontology-normalised value match",
+          "row-level retrieval"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "efficacy",
+            "concept_id": "PEH-DOM-002",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "patient-derived xenograft",
+            "concept_id": "PEH-MOD-018",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "exposure-response",
+            "concept_id": "PEH-PKPD-006",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "rows 16-18",
+        "source_id": "SRC-002",
+        "retrieval_rank": 1,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Pharmacology reviewer",
+          "review_date": "2026-09-27",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-010",
+      "domain": "Efficacy",
+      "claim": "One resistant high-expression PDX model showed low receptor internalisation, suggesting expression alone may be insufficient for response prediction.",
+      "direction": "Challenges",
+      "directness": "Direct programme evidence",
+      "quality": "Moderate",
+      "consistency": "Mixed",
+      "applicability": "High",
+      "date": "2026-09-27",
+      "status": "Accepted",
+      "source_id": "SRC-002",
+      "locator": "row 14 and comment field",
+      "criterion": "Efficacy & differentiation",
+      "access": "programme",
+      "roles": [
+        "Discovery Scientist",
+        "Translational & Preclinical Lead",
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Mechanism is inferred from one model and requires confirmation.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-010",
+        "query": "Which A17-03 efficacy findings support or challenge differentiation at candidate nomination?",
+        "retrieval_route": [
+          "structured field filtering",
+          "ontology-normalised value match",
+          "row-level retrieval"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "efficacy",
+            "concept_id": "PEH-DOM-002",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "patient-derived xenograft",
+            "concept_id": "PEH-MOD-018",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "exposure-response",
+            "concept_id": "PEH-PKPD-006",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "row 14 and comment field",
+        "source_id": "SRC-002",
+        "retrieval_rank": 2,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Pharmacology reviewer",
+          "review_date": "2026-09-27",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-011",
+      "domain": "Safety",
+      "claim": "No cytokine-release signal was detected in human whole-blood assays up to 100-fold the cellular EC50.",
+      "direction": "Supports",
+      "directness": "Direct programme evidence",
+      "quality": "Moderate",
+      "consistency": "Consistent",
+      "applicability": "Moderate",
+      "date": "2026-10-02",
+      "status": "Accepted",
+      "source_id": "SRC-003",
+      "locator": "slide 3",
+      "criterion": "Safety margin",
+      "access": "restricted",
+      "roles": [
+        "Discovery Scientist",
+        "Translational & Preclinical Lead",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Assay sensitivity and donor coverage limit exclusion of rare responses.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-011",
+        "query": "What evidence changes the A17-03 safety-margin assessment and translational plan?",
+        "retrieval_route": [
+          "metadata enrichment",
+          "semantic retrieval",
+          "slide-level locator resolution"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "normal-tissue binding",
+            "concept_id": "PEH-SAF-005",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "safety margin",
+            "concept_id": "PEH-DEC-021",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "translational toxicology",
+            "concept_id": "PEH-TOX-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "slide 3",
+        "source_id": "SRC-003",
+        "retrieval_rank": 3,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Safety Sciences reviewer",
+          "review_date": "2026-10-02",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-012",
+      "domain": "Safety",
+      "claim": "A17-03 binds activated fibroblasts and low-level corneal epithelium in the expanded normal-tissue panel.",
+      "direction": "Challenges",
+      "directness": "Direct programme evidence",
+      "quality": "Moderate",
+      "consistency": "Consistent",
+      "applicability": "High",
+      "date": "2026-10-02",
+      "status": "Accepted",
+      "source_id": "SRC-003",
+      "locator": "slide 2",
+      "criterion": "Safety margin",
+      "access": "restricted",
+      "roles": [
+        "Discovery Scientist",
+        "Translational & Preclinical Lead",
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Binding intensity is low; functional consequence and exposure margin are unresolved.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-012",
+        "query": "What evidence changes the A17-03 safety-margin assessment and translational plan?",
+        "retrieval_route": [
+          "metadata enrichment",
+          "semantic retrieval",
+          "slide-level locator resolution"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "normal-tissue binding",
+            "concept_id": "PEH-SAF-005",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "safety margin",
+            "concept_id": "PEH-DEC-021",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "translational toxicology",
+            "concept_id": "PEH-TOX-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "slide 2",
+        "source_id": "SRC-003",
+        "retrieval_rank": 4,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Safety Sciences reviewer",
+          "review_date": "2026-10-02",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-013",
+      "domain": "Safety",
+      "claim": "Cynomolgus cross-reactivity is insufficient to make the planned species a fully informative safety model.",
+      "direction": "Challenges",
+      "directness": "Direct programme evidence",
+      "quality": "High",
+      "consistency": "Consistent",
+      "applicability": "High",
+      "date": "2026-10-02",
+      "status": "Accepted",
+      "source_id": "SRC-003",
+      "locator": "slide 4",
+      "criterion": "Safety margin",
+      "access": "restricted",
+      "roles": [
+        "Translational & Preclinical Lead",
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Alternative translational strategy is not yet agreed.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-013",
+        "query": "What evidence changes the A17-03 safety-margin assessment and translational plan?",
+        "retrieval_route": [
+          "metadata enrichment",
+          "semantic retrieval",
+          "slide-level locator resolution"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "normal-tissue binding",
+            "concept_id": "PEH-SAF-005",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "safety margin",
+            "concept_id": "PEH-DEC-021",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "translational toxicology",
+            "concept_id": "PEH-TOX-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "slide 4",
+        "source_id": "SRC-003",
+        "retrieval_rank": 1,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Safety Sciences reviewer",
+          "review_date": "2026-10-02",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-014",
+      "domain": "Safety",
+      "claim": "A pilot repeat-dose study observed reversible thrombocytopenia at the highest exposure tested.",
+      "direction": "Challenges",
+      "directness": "Direct programme evidence",
+      "quality": "Low",
+      "consistency": "Mixed",
+      "applicability": "Moderate",
+      "date": "2026-10-02",
+      "status": "Awaiting review",
+      "source_id": "SRC-003",
+      "locator": "slide 4",
+      "criterion": "Safety margin",
+      "access": "restricted",
+      "roles": [
+        "Translational & Preclinical Lead",
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "n=2 per group and the mechanism is not established.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-014",
+        "query": "What evidence changes the A17-03 safety-margin assessment and translational plan?",
+        "retrieval_route": [
+          "metadata enrichment",
+          "semantic retrieval",
+          "slide-level locator resolution"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "normal-tissue binding",
+            "concept_id": "PEH-SAF-005",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "safety margin",
+            "concept_id": "PEH-DEC-021",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "translational toxicology",
+            "concept_id": "PEH-TOX-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "slide 4",
+        "source_id": "SRC-003",
+        "retrieval_rank": 2,
+        "human_review": {
+          "status": "Awaiting specialist review",
+          "reviewer_role": "Safety Sciences reviewer",
+          "review_date": null,
+          "disposition": "Pending review before use in governance"
+        }
+      }
+    },
+    {
+      "id": "E-015",
+      "domain": "Developability / CMC",
+      "claim": "A17-03 retained 98.2% monomer after three freeze-thaw cycles in the lead formulation.",
+      "direction": "Supports",
+      "directness": "Direct programme evidence",
+      "quality": "High",
+      "consistency": "Consistent",
+      "applicability": "High",
+      "date": "2026-10-04",
+      "status": "Accepted",
+      "source_id": "SRC-004",
+      "locator": "p.1, Table 1",
+      "criterion": "Developability / CMC",
+      "access": "programme",
+      "roles": [
+        "Translational & Preclinical Lead",
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Short-term stress condition only.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-015",
+        "query": "Which developability and formulation findings affect the feasibility of IND-enabling development?",
+        "retrieval_route": [
+          "ontology expansion",
+          "hybrid retrieval",
+          "table-cell locator resolution"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "developability",
+            "concept_id": "PEH-CMC-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "formulation viscosity",
+            "concept_id": "PEH-FRM-015",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "manufacturing feasibility",
+            "concept_id": "PEH-MFG-002",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "p.1, Table 1",
+        "source_id": "SRC-004",
+        "retrieval_rank": 3,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Biologics CMC reviewer",
+          "review_date": "2026-10-04",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-016",
+      "domain": "Developability / CMC",
+      "claim": "Viscosity reached 19 cP at 150 mg/mL, above the programme target for subcutaneous administration.",
+      "direction": "Challenges",
+      "directness": "Direct programme evidence",
+      "quality": "High",
+      "consistency": "Consistent",
+      "applicability": "High",
+      "date": "2026-10-04",
+      "status": "Accepted",
+      "source_id": "SRC-004",
+      "locator": "p.1, Table 1",
+      "criterion": "Developability / CMC",
+      "access": "programme",
+      "roles": [
+        "Translational & Preclinical Lead",
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Alternative formulation and route remain available.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-016",
+        "query": "Which developability and formulation findings affect the feasibility of IND-enabling development?",
+        "retrieval_route": [
+          "ontology expansion",
+          "hybrid retrieval",
+          "table-cell locator resolution"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "developability",
+            "concept_id": "PEH-CMC-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "formulation viscosity",
+            "concept_id": "PEH-FRM-015",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "manufacturing feasibility",
+            "concept_id": "PEH-MFG-002",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "p.1, Table 1",
+        "source_id": "SRC-004",
+        "retrieval_rank": 4,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Biologics CMC reviewer",
+          "review_date": "2026-10-04",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-017",
+      "domain": "Developability / CMC",
+      "claim": "The stable-pool process achieved an illustrative titre of 3.2 g/L with no major product-quality shift.",
+      "direction": "Supports",
+      "directness": "Direct programme evidence",
+      "quality": "Moderate",
+      "consistency": "Consistent",
+      "applicability": "High",
+      "date": "2026-10-04",
+      "status": "Accepted",
+      "source_id": "SRC-004",
+      "locator": "p.1, Table 1",
+      "criterion": "Developability / CMC",
+      "access": "programme",
+      "roles": [
+        "Translational & Preclinical Lead",
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Not yet confirmed in a clonal cell line or scaled process.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-017",
+        "query": "Which developability and formulation findings affect the feasibility of IND-enabling development?",
+        "retrieval_route": [
+          "ontology expansion",
+          "hybrid retrieval",
+          "table-cell locator resolution"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "developability",
+            "concept_id": "PEH-CMC-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "formulation viscosity",
+            "concept_id": "PEH-FRM-015",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "manufacturing feasibility",
+            "concept_id": "PEH-MFG-002",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "p.1, Table 1",
+        "source_id": "SRC-004",
+        "retrieval_rank": 1,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Biologics CMC reviewer",
+          "review_date": "2026-10-04",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-018",
+      "domain": "Developability / CMC",
+      "claim": "Fc glycan distribution is within the illustrative internal comparator range.",
+      "direction": "Supports",
+      "directness": "Direct programme evidence",
+      "quality": "Moderate",
+      "consistency": "Consistent",
+      "applicability": "Moderate",
+      "date": "2026-10-04",
+      "status": "Accepted",
+      "source_id": "SRC-004",
+      "locator": "p.1, Table 1",
+      "criterion": "Developability / CMC",
+      "access": "programme",
+      "roles": [
+        "Translational & Preclinical Lead",
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Comparator range is process-specific and not a release specification.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-018",
+        "query": "Which developability and formulation findings affect the feasibility of IND-enabling development?",
+        "retrieval_route": [
+          "ontology expansion",
+          "hybrid retrieval",
+          "table-cell locator resolution"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "A17-03",
+            "concept_id": "PEH-AST-003",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "developability",
+            "concept_id": "PEH-CMC-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "formulation viscosity",
+            "concept_id": "PEH-FRM-015",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "manufacturing feasibility",
+            "concept_id": "PEH-MFG-002",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "p.1, Table 1",
+        "source_id": "SRC-004",
+        "retrieval_rank": 2,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Biologics CMC reviewer",
+          "review_date": "2026-10-04",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-019",
+      "domain": "Competitive Intelligence",
+      "claim": "The illustrative landscape contains two preclinical competitors and one Phase I programme against the same target class.",
+      "direction": "Context",
+      "directness": "External precedent",
+      "quality": "Moderate",
+      "consistency": "Consistent",
+      "applicability": "High",
+      "date": "2026-11-03",
+      "status": "Accepted",
+      "source_id": "SRC-006",
+      "locator": "p.1, landscape table",
+      "criterion": "Competitive positioning",
+      "access": "programme",
+      "roles": [
+        "Discovery Scientist",
+        "Translational & Preclinical Lead",
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Public disclosures are incomplete and may lag programme status.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-019",
+        "query": "Which external developments affect A17-03 competitive positioning or a reconsideration trigger?",
+        "retrieval_route": [
+          "entity and relationship traversal",
+          "semantic retrieval",
+          "recency and materiality filter"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "TAA-17 target class",
+            "concept_id": "PEH-TGT-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "competitive landscape",
+            "concept_id": "PEH-CI-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "external safety signal",
+            "concept_id": "PEH-CI-012",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "reconsideration trigger",
+            "concept_id": "PEH-DEC-030",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "p.1, landscape table",
+        "source_id": "SRC-006",
+        "retrieval_rank": 3,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Competitive Intelligence reviewer",
+          "review_date": "2026-11-03",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-020",
+      "domain": "Competitive Intelligence",
+      "claim": "A simulated competitor safety update reports grade 3 keratitis in two of twelve treated patients and a temporary enrolment pause.",
+      "direction": "Challenges",
+      "directness": "External signal",
+      "quality": "Low",
+      "consistency": "Not yet assessed",
+      "applicability": "High",
+      "date": "2026-11-03",
+      "status": "Awaiting review",
+      "source_id": "SRC-006",
+      "locator": "p.2, simulated update",
+      "criterion": "Safety margin",
+      "access": "programme",
+      "roles": [
+        "Discovery Scientist",
+        "Translational & Preclinical Lead",
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Illustrative signal; construct, exposure and patient population differ.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-020",
+        "query": "Which external developments affect A17-03 competitive positioning or a reconsideration trigger?",
+        "retrieval_route": [
+          "entity and relationship traversal",
+          "semantic retrieval",
+          "recency and materiality filter"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "TAA-17 target class",
+            "concept_id": "PEH-TGT-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "competitive landscape",
+            "concept_id": "PEH-CI-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "external safety signal",
+            "concept_id": "PEH-CI-012",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "reconsideration trigger",
+            "concept_id": "PEH-DEC-030",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "p.2, simulated update",
+        "source_id": "SRC-006",
+        "retrieval_rank": 4,
+        "human_review": {
+          "status": "Awaiting specialist review",
+          "reviewer_role": "Competitive Intelligence reviewer",
+          "review_date": null,
+          "disposition": "Pending review before use in governance"
+        }
+      }
+    },
+    {
+      "id": "E-021",
+      "domain": "Competitive Intelligence",
+      "claim": "The most advanced competitor uses biomarker-enriched enrolment, increasing the importance of a defensible assay and cut-off.",
+      "direction": "Context",
+      "directness": "External precedent",
+      "quality": "Moderate",
+      "consistency": "Consistent",
+      "applicability": "High",
+      "date": "2026-11-03",
+      "status": "Accepted",
+      "source_id": "SRC-006",
+      "locator": "p.1, landscape table",
+      "criterion": "Competitive positioning",
+      "access": "programme",
+      "roles": [
+        "Discovery Scientist",
+        "Translational & Preclinical Lead",
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Trial design may change after early dose escalation.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-021",
+        "query": "Which external developments affect A17-03 competitive positioning or a reconsideration trigger?",
+        "retrieval_route": [
+          "entity and relationship traversal",
+          "semantic retrieval",
+          "recency and materiality filter"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "TAA-17 target class",
+            "concept_id": "PEH-TGT-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "competitive landscape",
+            "concept_id": "PEH-CI-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "external safety signal",
+            "concept_id": "PEH-CI-012",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "reconsideration trigger",
+            "concept_id": "PEH-DEC-030",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "p.1, landscape table",
+        "source_id": "SRC-006",
+        "retrieval_rank": 1,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "Competitive Intelligence reviewer",
+          "review_date": "2026-11-03",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-022",
+      "domain": "Company Strategy",
+      "claim": "The illustrative 2027 strategy prioritises biomarker-defined antibody programmes in ovarian and endometrial cancers.",
+      "direction": "Supports",
+      "directness": "Strategic context",
+      "quality": "High",
+      "consistency": "Consistent",
+      "applicability": "High",
+      "date": "2026-09-30",
+      "status": "Accepted",
+      "source_id": "SRC-007",
+      "locator": "p.1, priority 1",
+      "criterion": "Strategic fit",
+      "access": "restricted",
+      "roles": [
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Strategic priority does not override programme-specific evidence.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-022",
+        "query": "Which active portfolio directives change the nomination threshold for Project AURORA?",
+        "retrieval_route": [
+          "role-filtered metadata search",
+          "semantic retrieval",
+          "policy-gated source resolution"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "Project AURORA",
+            "concept_id": "PEH-PRG-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "portfolio strategy",
+            "concept_id": "PEH-STR-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "IND-enabling capacity",
+            "concept_id": "PEH-STR-013",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "normal-tissue risk mitigation",
+            "concept_id": "PEH-STR-009",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "p.1, priority 1",
+        "source_id": "SRC-007",
+        "retrieval_rank": 2,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "R&D Strategy reviewer",
+          "review_date": "2026-09-30",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-023",
+      "domain": "Company Strategy",
+      "claim": "Leadership requires an explicit normal-tissue risk-mitigation plan before committing an antibody candidate to IND-enabling work.",
+      "direction": "Challenges",
+      "directness": "Strategic context",
+      "quality": "High",
+      "consistency": "Consistent",
+      "applicability": "High",
+      "date": "2026-09-30",
+      "status": "Accepted",
+      "source_id": "SRC-007",
+      "locator": "p.1, guardrail 2",
+      "criterion": "Strategic fit",
+      "access": "restricted",
+      "roles": [
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "The minimum acceptable mitigation evidence is not fully specified.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-023",
+        "query": "Which active portfolio directives change the nomination threshold for Project AURORA?",
+        "retrieval_route": [
+          "role-filtered metadata search",
+          "semantic retrieval",
+          "policy-gated source resolution"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "Project AURORA",
+            "concept_id": "PEH-PRG-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "portfolio strategy",
+            "concept_id": "PEH-STR-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "IND-enabling capacity",
+            "concept_id": "PEH-STR-013",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "normal-tissue risk mitigation",
+            "concept_id": "PEH-STR-009",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "p.1, guardrail 2",
+        "source_id": "SRC-007",
+        "retrieval_rank": 3,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "R&D Strategy reviewer",
+          "review_date": "2026-09-30",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    },
+    {
+      "id": "E-024",
+      "domain": "Company Strategy",
+      "claim": "Portfolio capacity permits one new IND-enabling start in the current quarter.",
+      "direction": "Context",
+      "directness": "Strategic context",
+      "quality": "High",
+      "consistency": "Consistent",
+      "applicability": "High",
+      "date": "2026-09-30",
+      "status": "Accepted",
+      "source_id": "SRC-007",
+      "locator": "p.1, portfolio constraint",
+      "criterion": "Strategic fit",
+      "access": "restricted",
+      "roles": [
+        "Programme Manager",
+        "Portfolio Leader"
+      ],
+      "uncertainty": "Capacity may change if another programme is delayed.",
+      "retrieval_trace": {
+        "trace_id": "RT-E-024",
+        "query": "Which active portfolio directives change the nomination threshold for Project AURORA?",
+        "retrieval_route": [
+          "role-filtered metadata search",
+          "semantic retrieval",
+          "policy-gated source resolution"
+        ],
+        "ontology_concepts": [
+          {
+            "label": "Project AURORA",
+            "concept_id": "PEH-PRG-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "portfolio strategy",
+            "concept_id": "PEH-STR-001",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "IND-enabling capacity",
+            "concept_id": "PEH-STR-013",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          },
+          {
+            "label": "normal-tissue risk mitigation",
+            "concept_id": "PEH-STR-009",
+            "scheme": "Illustrative Programme Evidence Hub vocabulary"
+          }
+        ],
+        "source_location": "p.1, portfolio constraint",
+        "source_id": "SRC-007",
+        "retrieval_rank": 4,
+        "human_review": {
+          "status": "Human accepted",
+          "reviewer_role": "R&D Strategy reviewer",
+          "review_date": "2026-09-30",
+          "disposition": "Accepted as decision-relevant"
+        }
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D-001",
+      "date": "2026-07-12",
+      "type": "Lead selection",
+      "question": "Which construct should advance into candidate-nomination studies?",
+      "outcome": "Advance A17-03; retain A17-05 as backup.",
+      "rationale": "A17-03 combined the strongest potency, receptor internalisation and early developability profile. Governance accepted expression heterogeneity as a biomarker-development risk rather than a reason to stop.",
+      "evidence_snapshot": [
+        "E-003",
+        "E-006",
+        "E-007",
+        "E-015"
+      ],
+      "accepted_risks": [
+        "Biomarker cut-off not locked",
+        "Normal-tissue panel incomplete",
+        "Subcutaneous formulation not yet demonstrated"
+      ],
+      "dissent": "Safety representative requested earlier expansion of normal-tissue binding and cross-reactivity work.",
+      "conditions": [
+        "Expand normal-tissue panel",
+        "Confirm activity in patient-derived models",
+        "Start high-concentration formulation screen"
+      ],
+      "approver": "Discovery Governance Committee",
+      "status": "Approved"
+    },
+    {
+      "id": "D-002",
+      "date": "2026-11-18",
+      "type": "Development Candidate Nomination",
+      "question": "Should A17-03 advance into IND-enabling development?",
+      "outcome": "Conditional nomination proposed; final decision pending human review.",
+      "rationale": "The candidate has a credible efficacy and biomarker case, but nomination should remain conditional on resolving normal-tissue risk, tox-model strategy and high-concentration formulation.",
+      "evidence_snapshot": [
+        "E-001",
+        "E-002",
+        "E-003",
+        "E-005",
+        "E-006",
+        "E-007",
+        "E-008",
+        "E-009",
+        "E-010",
+        "E-011",
+        "E-012",
+        "E-013",
+        "E-015",
+        "E-016",
+        "E-017",
+        "E-018",
+        "E-019",
+        "E-021",
+        "E-022",
+        "E-023",
+        "E-024"
+      ],
+      "accepted_risks": [
+        "Tumour-expression heterogeneity",
+        "Uncertain human translation of pilot platelet finding"
+      ],
+      "dissent": "Not yet recorded.",
+      "conditions": [
+        "Complete expanded normal-tissue review",
+        "Agree alternative safety translation plan",
+        "Lock biomarker assay cut-off",
+        "Demonstrate acceptable formulation path"
+      ],
+      "approver": "Candidate Nomination Committee",
+      "status": "Draft recommendation"
+    }
+  ],
+  "criteria": [
+    {
+      "name": "Biological rationale & patient selection",
+      "weight": 20,
+      "threshold": "Biomarker strategy supported and major biological uncertainties explicit."
+    },
+    {
+      "name": "Efficacy & differentiation",
+      "weight": 20,
+      "threshold": "Reproducible activity in relevant models with a credible differentiation hypothesis."
+    },
+    {
+      "name": "Safety margin",
+      "weight": 25,
+      "threshold": "Normal-tissue risk and translational safety plan acceptable to governance."
+    },
+    {
+      "name": "Developability / CMC",
+      "weight": 15,
+      "threshold": "Manufacturing and formulation path feasible for the intended route."
+    },
+    {
+      "name": "Strategic fit",
+      "weight": 10,
+      "threshold": "Aligned to portfolio priorities and investment constraints."
+    },
+    {
+      "name": "Competitive positioning",
+      "weight": 10,
+      "threshold": "A defensible biomarker, construct or development advantage is articulated."
+    }
+  ],
+  "signals": [
+    {
+      "id": "SIG-001",
+      "title": "Simulated competitor safety update",
+      "date": "2026-10-08",
+      "status": "Not introduced",
+      "summary": "A fictional Phase I competitor update reports grade 3 keratitis in two of twelve patients and a temporary enrolment pause.",
+      "affected_criteria": [
+        "Safety margin",
+        "Competitive positioning"
+      ],
+      "source_id": "SRC-006",
+      "source_locator": "p.2",
+      "materiality": "High",
+      "suggested_action": "Re-open the safety-margin criterion, compare construct and exposure differences, and request human review before the nomination meeting."
+    },
+    {
+      "id": "SIG-002",
+      "title": "Portfolio strategy directive",
+      "date": "2026-09-30",
+      "status": "Active",
+      "summary": "Biomarker-defined antibody programmes remain a priority, but an explicit normal-tissue risk-mitigation path is required.",
+      "affected_criteria": [
+        "Strategic fit",
+        "Safety margin"
+      ],
+      "source_id": "SRC-007",
+      "source_locator": "p.1",
+      "materiality": "High",
+      "suggested_action": "Make biomarker cut-off and normal-tissue risk mitigation explicit nomination conditions."
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "SUG-001",
+      "type": "Evidence gap",
+      "title": "Safety translation strategy is incomplete",
+      "status": "Open",
+      "trigger": "No informative cross-reactive species and no approved alternative strategy.",
+      "affected_criteria": [
+        "Safety margin"
+      ],
+      "evidence_ids": [
+        "E-012",
+        "E-013",
+        "E-014"
+      ],
+      "recommendation": "Assign a human safety review to define the translational package and decision threshold before nomination.",
+      "owner": "Safety Sciences",
+      "due": "2026-10-16",
+      "opened_at": "2026-10-02T09:00:00+01:00"
+    },
+    {
+      "id": "SUG-002",
+      "type": "Evidence conflict",
+      "title": "Strong efficacy is constrained by target heterogeneity",
+      "status": "Open",
+      "trigger": "Accepted evidence supports high-expression activity while low-expression and non-internalising models remain resistant.",
+      "affected_criteria": [
+        "Biological rationale & patient selection",
+        "Efficacy & differentiation"
+      ],
+      "evidence_ids": [
+        "E-001",
+        "E-002",
+        "E-006",
+        "E-007",
+        "E-010"
+      ],
+      "recommendation": "Lock the biomarker hypothesis and specify which patient segment the nomination decision covers.",
+      "owner": "Translational Sciences",
+      "due": "2026-10-20",
+      "opened_at": "2026-10-04T11:15:00+01:00"
+    },
+    {
+      "id": "SUG-003",
+      "type": "Decision-change trigger",
+      "title": "External safety signal may change the nomination case",
+      "status": "Dormant",
+      "trigger": "New external evidence after the previous review affects an unresolved safety criterion.",
+      "affected_criteria": [
+        "Safety margin",
+        "Competitive positioning"
+      ],
+      "evidence_ids": [
+        "E-012",
+        "E-020"
+      ],
+      "recommendation": "Compare the external signal with A17-03 binding, exposure and mitigation plans, then record whether the decision rationale changes.",
+      "owner": "Programme Team",
+      "due": "2026-10-14",
+      "opened_at": null
+    }
+  ],
+  "actions": [
+    {
+      "id": "A-001",
+      "action": "Expand normal-tissue binding review, including corneal and activated-stromal tissues.",
+      "owner": "Safety Sciences",
+      "due": "2026-10-16",
+      "status": "In progress",
+      "linked": "E-012"
+    },
+    {
+      "id": "A-002",
+      "action": "Agree alternative safety translation plan given limited cynomolgus cross-reactivity.",
+      "owner": "Safety Sciences / Translational",
+      "due": "2026-10-16",
+      "status": "Not started",
+      "linked": "E-013"
+    },
+    {
+      "id": "A-003",
+      "action": "Lock biomarker assay cut-off and inter-laboratory reproducibility plan.",
+      "owner": "Translational Sciences",
+      "due": "2026-10-20",
+      "status": "In progress",
+      "linked": "E-005"
+    },
+    {
+      "id": "A-004",
+      "action": "Complete formulation screen to reduce viscosity at the intended concentration.",
+      "owner": "Biologics CMC",
+      "due": "2026-10-22",
+      "status": "In progress",
+      "linked": "E-016"
+    },
+    {
+      "id": "A-005",
+      "action": "Update differentiation assessment after the simulated competitor signal is reviewed.",
+      "owner": "Competitive Intelligence",
+      "due": "2026-10-14",
+      "status": "Blocked until signal review",
+      "linked": "SIG-001"
+    }
+  ],
+  "reconsideration_triggers": [
+    "New evidence of clinically relevant normal-tissue toxicity in the target class.",
+    "Failure to demonstrate an acceptable alternative safety-translation strategy.",
+    "Biomarker assay reproducibility below the agreed governance threshold.",
+    "Formulation work does not support a feasible administration route.",
+    "A competitor demonstrates materially superior efficacy or safety in the selected patient segment."
+  ],
+  "evaluation_questions": [
+    {
+      "id": "Q-01",
+      "question": "What evidence supports target relevance in the selected indication?",
+      "expected": [
+        "E-001",
+        "E-003",
+        "E-005"
+      ],
+      "retrieved": [
+        "E-001",
+        "E-003",
+        "E-005",
+        "E-015"
+      ],
+      "answer": "Tumour expression, internalisation and a provisional biomarker assay support target relevance, with heterogeneity retained as an explicit limitation.",
+      "citation_results": {
+        "E-001": {
+          "returned_locator": "p.1, Table 1",
+          "expected_locator": "p.1, Table 1",
+          "correct": true
+        },
+        "E-003": {
+          "returned_locator": "p.1, Figure 1",
+          "expected_locator": "p.1, Figure 1",
+          "correct": true
+        },
+        "E-005": {
+          "returned_locator": "p.2, Biomarker section",
+          "expected_locator": "p.2, Biomarker section",
+          "correct": true
+        },
+        "E-015": {
+          "returned_locator": "p.1, Table 1",
+          "expected_locator": "p.1, Table 1",
+          "correct": true
+        }
+      },
+      "human_disposition": {
+        "status": "Amended",
+        "reviewer_role": "Discovery Scientist",
+        "note": "Remove E-015 from this answer because it is a developability result rather than target-relevance evidence."
+      }
+    },
+    {
+      "id": "Q-02",
+      "question": "What is the principal unresolved safety uncertainty?",
+      "expected": [
+        "E-012",
+        "E-013",
+        "E-014"
+      ],
+      "retrieved": [
+        "E-012",
+        "E-013"
+      ],
+      "answer": "Low-level normal-tissue binding and an incompletely informative species leave the human safety margin unresolved.",
+      "citation_results": {
+        "E-012": {
+          "returned_locator": "slide 2",
+          "expected_locator": "slide 2",
+          "correct": true
+        },
+        "E-013": {
+          "returned_locator": "slide 4",
+          "expected_locator": "slide 4",
+          "correct": true
+        }
+      },
+      "human_disposition": {
+        "status": "Needs review",
+        "reviewer_role": "Safety Sciences",
+        "note": "The pilot thrombocytopenia finding, E-014, was omitted and must be reviewed before the answer is decision-ready."
+      }
+    },
+    {
+      "id": "Q-03",
+      "question": "Which evidence directly relates to the current construct?",
+      "expected": [
+        "E-003",
+        "E-006",
+        "E-008",
+        "E-011",
+        "E-012",
+        "E-015",
+        "E-016",
+        "E-017"
+      ],
+      "retrieved": [
+        "E-003",
+        "E-006",
+        "E-008",
+        "E-011",
+        "E-012",
+        "E-015",
+        "E-016",
+        "E-017"
+      ],
+      "answer": "Eight retrieved evidence objects are direct A17-03 findings across biology, efficacy, safety and CMC.",
+      "citation_results": {
+        "E-003": {
+          "returned_locator": "p.1, Figure 1",
+          "expected_locator": "p.1, Figure 1",
+          "correct": true
+        },
+        "E-006": {
+          "returned_locator": "rows 2-6",
+          "expected_locator": "rows 2-6",
+          "correct": true
+        },
+        "E-008": {
+          "returned_locator": "rows 9-14",
+          "expected_locator": "rows 9-14",
+          "correct": true
+        },
+        "E-011": {
+          "returned_locator": "slide 3",
+          "expected_locator": "slide 3",
+          "correct": true
+        },
+        "E-012": {
+          "returned_locator": "slide 2",
+          "expected_locator": "slide 2",
+          "correct": true
+        },
+        "E-015": {
+          "returned_locator": "p.1, Table 1",
+          "expected_locator": "p.1, Table 1",
+          "correct": true
+        },
+        "E-016": {
+          "returned_locator": "p.1, Table 1",
+          "expected_locator": "p.1, Table 1",
+          "correct": true
+        },
+        "E-017": {
+          "returned_locator": "p.1, Table 1",
+          "expected_locator": "p.1, Table 1",
+          "correct": true
+        }
+      },
+      "human_disposition": {
+        "status": "Accepted",
+        "reviewer_role": "Translational & Preclinical Lead",
+        "note": "Evidence set and source locators accepted for the current synthetic snapshot."
+      }
+    },
+    {
+      "id": "Q-04",
+      "question": "What changed after the previous governance review?",
+      "expected": [
+        "E-012",
+        "E-013",
+        "E-016",
+        "E-020",
+        "E-022",
+        "E-023"
+      ],
+      "retrieved": [
+        "E-012",
+        "E-013",
+        "E-016",
+        "E-022",
+        "E-023"
+      ],
+      "answer": "Expanded safety, CMC and strategy evidence changed the conditions for nomination; the external safety signal appears only after it is introduced in the demonstration.",
+      "citation_results": {
+        "E-012": {
+          "returned_locator": "slide 2",
+          "expected_locator": "slide 2",
+          "correct": true
+        },
+        "E-013": {
+          "returned_locator": "slide 4",
+          "expected_locator": "slide 4",
+          "correct": true
+        },
+        "E-016": {
+          "returned_locator": "p.1, Table 1",
+          "expected_locator": "p.1, Table 1",
+          "correct": true
+        },
+        "E-022": {
+          "returned_locator": "p.1, priority 1",
+          "expected_locator": "p.1, priority 1",
+          "correct": true
+        },
+        "E-023": {
+          "returned_locator": "p.1, guardrail 2",
+          "expected_locator": "p.1, guardrail 2",
+          "correct": true
+        },
+        "E-020": {
+          "returned_locator": "p.2, simulated update",
+          "expected_locator": "p.2, simulated update",
+          "correct": true
+        }
+      },
+      "human_disposition": {
+        "status": "Needs review",
+        "reviewer_role": "Programme Manager",
+        "note": "The external signal is intentionally withheld until the presenter introduces it."
+      }
+    },
+    {
+      "id": "Q-05",
+      "question": "Which sources supported the historical lead-selection decision?",
+      "expected": [
+        "E-003",
+        "E-006",
+        "E-007",
+        "E-015"
+      ],
+      "retrieved": [
+        "E-003",
+        "E-006",
+        "E-007",
+        "E-015"
+      ],
+      "answer": "The historical snapshot links the lead decision to internalisation, potency, expression-stratified activity and early developability evidence.",
+      "citation_results": {
+        "E-003": {
+          "returned_locator": "p.1, Figure 1",
+          "expected_locator": "p.1, Figure 1",
+          "correct": true
+        },
+        "E-006": {
+          "returned_locator": "rows 2-6",
+          "expected_locator": "rows 2-6",
+          "correct": true
+        },
+        "E-007": {
+          "returned_locator": "rows 8-9",
+          "expected_locator": "rows 7-8",
+          "correct": false
+        },
+        "E-015": {
+          "returned_locator": "p.1, Table 1",
+          "expected_locator": "p.1, Table 1",
+          "correct": true
+        }
+      },
+      "human_disposition": {
+        "status": "Accepted with correction",
+        "reviewer_role": "Programme Governance",
+        "note": "Evidence set accepted; the returned locator for E-007 must be corrected to rows 6-7."
+      }
+    },
+    {
+      "id": "Q-06",
+      "question": "What must the preclinical team generate next?",
+      "expected": [
+        "E-005",
+        "E-012",
+        "E-013",
+        "E-016"
+      ],
+      "retrieved": [
+        "E-005",
+        "E-012",
+        "E-013",
+        "E-016"
+      ],
+      "answer": "The receiving team needs a locked biomarker plan, expanded normal-tissue assessment, an alternative safety-translation plan and a viable formulation route.",
+      "citation_results": {
+        "E-005": {
+          "returned_locator": "p.2, Biomarker section",
+          "expected_locator": "p.2, Biomarker section",
+          "correct": true
+        },
+        "E-012": {
+          "returned_locator": "slide 2",
+          "expected_locator": "slide 2",
+          "correct": true
+        },
+        "E-013": {
+          "returned_locator": "slide 4",
+          "expected_locator": "slide 4",
+          "correct": true
+        },
+        "E-016": {
+          "returned_locator": "p.1, Table 1",
+          "expected_locator": "p.1, Table 1",
+          "correct": true
+        }
+      },
+      "human_disposition": {
+        "status": "Accepted",
+        "reviewer_role": "Translational & Preclinical Lead",
+        "note": "Accepted as the current handover action set."
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "RULE-01",
+      "name": "Evidence gap",
+      "logic": "Flag when a required decision criterion has no accepted evidence or when an explicit dependency remains unresolved.",
+      "output": "Suggestion requiring named human owner and due date."
+    },
+    {
+      "id": "RULE-02",
+      "name": "Evidence conflict",
+      "logic": "Flag when accepted supporting and challenging evidence address the same criterion with high applicability.",
+      "output": "Side-by-side evidence set; no automated resolution."
+    },
+    {
+      "id": "RULE-03",
+      "name": "Decision-change trigger",
+      "logic": "Flag new evidence dated after the last review when it affects an unresolved criterion or reconsideration trigger.",
+      "output": "Human review request and versioned rationale update."
+    }
+  ],
+  "generated_at": "2026-10-10T11:00:00+01:00",
+  "prototype_version": "0.2",
+  "capability_mapping": [
+    {
+      "module": "Competitive intelligence",
+      "decision_need": "Detect external evidence that may change the programme assessment",
+      "implementation_capability": "Scientific and competitive-intelligence curation; semantic retrieval",
+      "implementation": "Curate selected sources, link assets, targets and indications to the programme, and surface material changes with citations.",
+      "pilot_output": "Traceable external signal and review trigger."
+    },
+    {
+      "module": "Company strategy",
+      "decision_need": "Ensure relevant strategic decisions reach programme teams",
+      "implementation_capability": "Strategy and decision-context structuring",
+      "implementation": "Encode directive, owner, date, affected programmes, rationale and review conditions.",
+      "pilot_output": "Role-specific strategy context within the evidence hub."
+    },
+    {
+      "module": "Governance-as-code",
+      "decision_need": "Control who receives which information and when",
+      "implementation_capability": "Metadata-driven governance and role-based information flows",
+      "implementation": "Apply role, domain, classification and explicit-membership rules from a versioned policy file.",
+      "pilot_output": "Demonstrated policy decisions, gated artefacts and auditability."
+    },
+    {
+      "module": "Biological rationale and decision history",
+      "decision_need": "Preserve why a decision was made",
+      "implementation_capability": "Structured scientific knowledge and decision-rationale capture",
+      "implementation": "Model claims, evidence, alternatives, uncertainty, dissent, approvals and reconsideration triggers.",
+      "pilot_output": "Versioned decision record linked to source evidence."
+    },
+    {
+      "module": "Cross-domain evidence and handover",
+      "decision_need": "Connect biology, efficacy, safety, CMC and programme context",
+      "implementation_capability": "Multiformat scientific curation, ontology alignment and knowledge modelling",
+      "implementation": "Extract and connect evidence from documents, tables, presentations and structured sources around the programme object.",
+      "pilot_output": "Decision-ready evidence package and handover view."
+    }
+  ]
+}

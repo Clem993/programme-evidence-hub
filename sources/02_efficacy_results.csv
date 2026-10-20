@@ -1,0 +1,17 @@
+record_id,model,model_type,TAA17_expression,assay,construct,dose_or_concentration,response,replicates,qc_status,interpretation
+R-001,AUR-01,cell line,High,viability,A17-03,0.8 nM IC50,86% maximal inhibition,3,Pass,High-expression activity
+R-002,AUR-04,cell line,High,viability,A17-03,0.6 nM IC50,91% maximal inhibition,3,Pass,High-expression activity
+R-003,AUR-07,patient-derived organoid,Moderate,viability,A17-03,1.1 nM IC50,78% maximal inhibition,3,Pass,Moderate-expression activity
+R-004,AUR-11,patient-derived organoid,High,viability,A17-03,0.9 nM IC50,82% maximal inhibition,3,Pass,High-expression activity
+R-005,AUR-13,cell line,High,viability,A17-03,0.7 nM IC50,88% maximal inhibition,3,Pass,High-expression activity
+R-006,AUR-15,cell line,Low,viability,A17-03,>25 nM IC50,18% maximal inhibition,3,Pass,Limited low-expression activity
+R-007,AUR-18,patient-derived organoid,Low,viability,A17-03,>25 nM IC50,12% maximal inhibition,3,Pass,Limited low-expression activity
+R-008,PDX-01,PDX,High,tumour volume,A17-03,10 mg/kg weekly,Regression,8 mice,Pass,Responsive
+R-009,PDX-02,PDX,High,tumour volume,A17-03,10 mg/kg weekly,Regression,8 mice,Pass,Responsive
+R-010,PDX-03,PDX,Moderate,tumour volume,A17-03,10 mg/kg weekly,Stable disease,8 mice,Pass,Partial response
+R-011,PDX-04,PDX,High,tumour volume,A17-03,10 mg/kg weekly,Regression,8 mice,Pass,Responsive
+R-012,PDX-05,PDX,High,tumour volume,A17-03,10 mg/kg weekly,Regression,8 mice,Pass,Responsive
+R-013,PDX-06,PDX,High,tumour volume,A17-03,10 mg/kg weekly,Progression,8 mice,Pass,High expression but low internalisation
+R-014,PDX-01,PDX,High,exposure-response,A17-03,3 mg/kg weekly,Stable disease,8 mice,Pass,Below plateau
+R-015,PDX-01,PDX,High,exposure-response,A17-03,10 mg/kg weekly,Regression,8 mice,Pass,Plateau begins
+R-016,PDX-01,PDX,High,exposure-response,A17-03,20 mg/kg weekly,Regression,8 mice,Pass,No material gain over 10 mg/kg

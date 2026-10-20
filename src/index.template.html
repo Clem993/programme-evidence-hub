@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Programme Evidence Hub Demonstrator v0.2.3</title>
+<style>{{EVIDENCE_HUB_STYLES}}</style>
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+  <div class="brand">Evidence and decisions<strong>Programme Evidence Hub</strong>Demonstrator v0.2.3</div>
+  <div class="synthetic">All programme details, scientific findings, and organisations are illustrative. No real company or programme data is included.</div>
+  <nav id="nav" class="nav"></nav>
+  <div class="sidebar-footer">One illustrative programme. One governance gate. Source-level provenance, policy-driven access and human-owned judgement.</div>
+</aside>
+<main class="main">
+  <header class="topbar">
+    <div><h1>Programme Evidence Hub</h1><div class="sub">A functional vertical slice over mixed-format illustrative source artefacts</div></div>
+    <div class="role-wrap"><div><label for="roleSelect">View as</label><div class="top-status" id="policyStatus"></div></div><select id="roleSelect"></select><button class="btn secondary small" id="resetBtn">Reset</button></div>
+  </header>
+  <div class="content">
+    <section id="overview" class="view"></section>
+    <section id="decision" class="view"></section>
+    <section id="evidence" class="view"></section>
+    <section id="registry" class="view"></section>
+    <section id="signals" class="view"></section>
+    <section id="handover" class="view"></section>
+    <section id="evaluation" class="view"></section>
+    <section id="technical" class="view"></section>
+  </div>
+</main>
+</div>
+<div id="toast" class="toast"></div>
+<div id="amendModal" class="modal"><div class="modal-box"><h3>Amend suggestion before recording the human decision</h3><label>Amended action</label><textarea id="amendText"></textarea><label>Rationale</label><textarea id="amendRationale"></textarea><div class="modal-actions"><button class="btn secondary" onclick="closeModal()">Cancel</button><button class="btn" onclick="submitAmendment()">Record amendment</button></div></div></div>
+<script>{{EVIDENCE_HUB_RESOURCES}}</script>
+<script>{{EVIDENCE_HUB_POLICY}}</script>
+<script>{{EVIDENCE_HUB_DATA}}</script>
+<script>{{EVIDENCE_HUB_APP}}</script>
+</body>
+</html>
