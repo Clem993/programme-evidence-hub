@@ -1,7 +1,7 @@
 {
   "programme": {
     "id": "PEH-A17",
-    "name": "Project AURORA",
+    "name": "Demo programme",
     "asset": "A17-03",
     "target": "TAA-17 (illustrative target)",
     "modality": "Fc-silenced humanised IgG1 monoclonal antibody",
@@ -27,7 +27,7 @@
       "owner": "Discovery Biology",
       "access": "programme",
       "version": "1.2",
-      "checksum": "78152d1bef0390a636bbdd3d97dee7edb91f2ddbed46018ee3b2f939a59b68ee",
+      "checksum": "48755bc91bfb75a7421a77f257368ecce85602568e5745cbb87de3e50591d8f6",
       "preview": "Target expression, internalisation, shedding and biomarker-assay findings for the illustrative TAA-17 programme.",
       "locations": [
         "p.1 target expression",
@@ -36,7 +36,7 @@
       ],
       "mime_type": "application/pdf",
       "source_system": "Illustrative programme document repository",
-      "authoritative_location": "/programmes/AURORA/biology/target_biology_review_v1.2.pdf",
+      "authoritative_location": "/programmes/DEMO/biology/target_biology_review_v1.2.pdf",
       "ingestion_status": "Scientifically reviewed",
       "ingested_at": "2026-09-18T14:30:00+01:00",
       "last_reviewed": "2026-09-22",
@@ -71,7 +71,7 @@
         }
       ],
       "access_policy_id": "PEH-GAC-001",
-      "file_size_bytes": 5170,
+      "file_size_bytes": 9041,
       "checksum_algorithm": "SHA-256"
     },
     {
@@ -92,7 +92,7 @@
       ],
       "mime_type": "text/csv",
       "source_system": "Illustrative assay results store",
-      "authoritative_location": "/programmes/AURORA/pharmacology/efficacy_results_2026-09-27.csv",
+      "authoritative_location": "/programmes/DEMO/pharmacology/efficacy_results_2026-09-27.csv",
       "ingestion_status": "Validated",
       "ingested_at": "2026-09-27T17:10:00+01:00",
       "last_reviewed": "2026-09-29",
@@ -139,7 +139,7 @@
       "owner": "Safety Sciences",
       "access": "restricted",
       "version": "0.9",
-      "checksum": "c8ce6c4a4e5e67517e2b3613311bfc988a0a341c8a294a2ab3dc49fed3870e3f",
+      "checksum": "1af5bc91f93a004f5110661522b5f3f2e8c2992bde52d077e459357efc98d309",
       "preview": "Normal-tissue binding, cytokine-release, platelet-risk and pilot repeat-dose findings, with explicit translational limitations.",
       "locations": [
         "slide 2 tissue binding",
@@ -148,7 +148,7 @@
       ],
       "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
       "source_system": "Illustrative safety workspace",
-      "authoritative_location": "/programmes/AURORA/safety/safety_update_v0.9.pptx",
+      "authoritative_location": "/programmes/DEMO/safety/safety_update_v0.9.pptx",
       "ingestion_status": "Scientifically reviewed",
       "ingested_at": "2026-10-02T16:20:00+01:00",
       "last_reviewed": "2026-10-05",
@@ -183,7 +183,7 @@
         }
       ],
       "access_policy_id": "PEH-GAC-001",
-      "file_size_bytes": 32263,
+      "file_size_bytes": 32256,
       "checksum_algorithm": "SHA-256"
     },
     {
@@ -195,7 +195,7 @@
       "owner": "Biologics CMC",
       "access": "programme",
       "version": "1.0",
-      "checksum": "2c3705ef60895dcdd01e407425c61b88bf27fd8ef703a3b73973d86bb5e92142",
+      "checksum": "aab001a89eeaab26f0f8a3f67d9e2f54d9bb44ae6c0cad8f64c0aee597f8fed4",
       "preview": "Yield, aggregation, concentration-dependent viscosity, glycan profile and formulation work required before nomination.",
       "locations": [
         "p.1 developability table",
@@ -203,7 +203,7 @@
       ],
       "mime_type": "application/pdf",
       "source_system": "Illustrative CMC repository",
-      "authoritative_location": "/programmes/AURORA/cmc/developability_summary_v1.0.pdf",
+      "authoritative_location": "/programmes/DEMO/cmc/developability_summary_v1.0.pdf",
       "ingestion_status": "Scientifically reviewed",
       "ingested_at": "2026-10-04T12:00:00+01:00",
       "last_reviewed": "2026-10-06",
@@ -238,7 +238,7 @@
         }
       ],
       "access_policy_id": "PEH-GAC-001",
-      "file_size_bytes": 2959,
+      "file_size_bytes": 8019,
       "checksum_algorithm": "SHA-256"
     },
     {
@@ -250,7 +250,7 @@
       "owner": "Programme Governance",
       "access": "programme",
       "version": "final",
-      "checksum": "7ecdbd2a13c098834a42608383fc7219ba746309c4e7d297bdfaf7e17d7f5ce1",
+      "checksum": "f77777d0f72aeca9fe14c5a5648a36b77e82cbe313238a8866922d2ed2d3529e",
       "preview": "Historical lead-selection decision, rationale, accepted risks, dissent, conditions and named follow-up actions.",
       "locations": [
         "Decision record section",
@@ -259,7 +259,7 @@
       ],
       "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "source_system": "Illustrative governance records",
-      "authoritative_location": "/programmes/AURORA/governance/lead_selection_record_final.docx",
+      "authoritative_location": "/programmes/DEMO/governance/lead_selection_record_final.docx",
       "ingestion_status": "Approved decision record",
       "ingested_at": "2026-07-12T18:15:00+01:00",
       "last_reviewed": "2026-07-12",
@@ -287,7 +287,7 @@
         }
       ],
       "access_policy_id": "PEH-GAC-001",
-      "file_size_bytes": 36183,
+      "file_size_bytes": 36176,
       "checksum_algorithm": "SHA-256"
     },
     {
@@ -299,7 +299,7 @@
       "owner": "Competitive Intelligence",
       "access": "programme",
       "version": "2.1",
-      "checksum": "3a3964d58e64e7a86211f3859a243868e57240bf1d33fb4c0124f9b665adf487",
+      "checksum": "d03d74933eeeef69b3f73a535018a5f8e7c35907599eafc7e35ef97b5c924829",
       "preview": "Illustrative competitor landscape and a simulated external safety update used to trigger review of the programme decision.",
       "locations": [
         "p.1 landscape",
@@ -307,7 +307,7 @@
       ],
       "mime_type": "application/pdf",
       "source_system": "Illustrative external-intelligence feed",
-      "authoritative_location": "/programmes/AURORA/competitive_intelligence/brief_v2.1.pdf",
+      "authoritative_location": "/programmes/DEMO/competitive_intelligence/brief_v2.1.pdf",
       "ingestion_status": "Curated external signal",
       "ingested_at": "2026-10-08T08:45:00+01:00",
       "last_reviewed": "2026-10-08",
@@ -342,7 +342,7 @@
         }
       ],
       "access_policy_id": "PEH-GAC-001",
-      "file_size_bytes": 3905,
+      "file_size_bytes": 9393,
       "checksum_algorithm": "SHA-256"
     },
     {
@@ -354,7 +354,7 @@
       "owner": "R&D Strategy",
       "access": "restricted",
       "version": "approved",
-      "checksum": "25fa683bdb989257f3a23a34398a21604f40afc028ec46df1ce14dbc4d778287",
+      "checksum": "61ce219cc51a6df6a83333bce40c732e6c45282ff594e707d92410d9f1fb2ecb",
       "preview": "Illustrative leadership directive covering biomarker-defined programmes, normal-tissue risk mitigation and portfolio capacity.",
       "locations": [
         "p.1 strategic priorities and constraints"
@@ -389,7 +389,7 @@
         }
       ],
       "access_policy_id": "PEH-GAC-001",
-      "file_size_bytes": 2810,
+      "file_size_bytes": 6561,
       "checksum_algorithm": "SHA-256"
     }
   ],
@@ -426,7 +426,7 @@
         ],
         "ontology_concepts": [
           {
-            "label": "Project AURORA",
+            "label": "Demo programme",
             "concept_id": "PEH-PRG-001",
             "scheme": "Illustrative Programme Evidence Hub vocabulary"
           },
@@ -494,7 +494,7 @@
         ],
         "ontology_concepts": [
           {
-            "label": "Project AURORA",
+            "label": "Demo programme",
             "concept_id": "PEH-PRG-001",
             "scheme": "Illustrative Programme Evidence Hub vocabulary"
           },
@@ -560,7 +560,7 @@
         ],
         "ontology_concepts": [
           {
-            "label": "Project AURORA",
+            "label": "Demo programme",
             "concept_id": "PEH-PRG-001",
             "scheme": "Illustrative Programme Evidence Hub vocabulary"
           },
@@ -626,7 +626,7 @@
         ],
         "ontology_concepts": [
           {
-            "label": "Project AURORA",
+            "label": "Demo programme",
             "concept_id": "PEH-PRG-001",
             "scheme": "Illustrative Programme Evidence Hub vocabulary"
           },
@@ -694,7 +694,7 @@
         ],
         "ontology_concepts": [
           {
-            "label": "Project AURORA",
+            "label": "Demo programme",
             "concept_id": "PEH-PRG-001",
             "scheme": "Illustrative Programme Evidence Hub vocabulary"
           },
@@ -1751,7 +1751,7 @@
       "uncertainty": "Strategic priority does not override programme-specific evidence.",
       "retrieval_trace": {
         "trace_id": "RT-E-022",
-        "query": "Which active portfolio directives change the nomination threshold for Project AURORA?",
+        "query": "Which active portfolio directives change the nomination threshold for Demo programme?",
         "retrieval_route": [
           "role-filtered metadata search",
           "semantic retrieval",
@@ -1759,7 +1759,7 @@
         ],
         "ontology_concepts": [
           {
-            "label": "Project AURORA",
+            "label": "Demo programme",
             "concept_id": "PEH-PRG-001",
             "scheme": "Illustrative Programme Evidence Hub vocabulary"
           },
@@ -1812,7 +1812,7 @@
       "uncertainty": "The minimum acceptable mitigation evidence is not fully specified.",
       "retrieval_trace": {
         "trace_id": "RT-E-023",
-        "query": "Which active portfolio directives change the nomination threshold for Project AURORA?",
+        "query": "Which active portfolio directives change the nomination threshold for Demo programme?",
         "retrieval_route": [
           "role-filtered metadata search",
           "semantic retrieval",
@@ -1820,7 +1820,7 @@
         ],
         "ontology_concepts": [
           {
-            "label": "Project AURORA",
+            "label": "Demo programme",
             "concept_id": "PEH-PRG-001",
             "scheme": "Illustrative Programme Evidence Hub vocabulary"
           },
@@ -1873,7 +1873,7 @@
       "uncertainty": "Capacity may change if another programme is delayed.",
       "retrieval_trace": {
         "trace_id": "RT-E-024",
-        "query": "Which active portfolio directives change the nomination threshold for Project AURORA?",
+        "query": "Which active portfolio directives change the nomination threshold for Demo programme?",
         "retrieval_route": [
           "role-filtered metadata search",
           "semantic retrieval",
@@ -1881,7 +1881,7 @@
         ],
         "ontology_concepts": [
           {
-            "label": "Project AURORA",
+            "label": "Demo programme",
             "concept_id": "PEH-PRG-001",
             "scheme": "Illustrative Programme Evidence Hub vocabulary"
           },

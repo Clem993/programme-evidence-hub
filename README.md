@@ -2,7 +2,7 @@
 
 Version 0.2.3. An interactive demonstration of programme evidence, decision rationale, source provenance, and human review.
 
-The dashboard uses one fictional antibody programme, Project AURORA, with seven illustrative source artefacts and 24 evidence claims. All programme details, scientific findings, and organisations are illustrative. No real company or programme data is included.
+The dashboard uses a fictional antibody programme with seven illustrative source artefacts and 24 evidence claims. All programme details, scientific findings, and organisations are illustrative. No real company or programme data is included.
 
 ## Open the dashboard
 

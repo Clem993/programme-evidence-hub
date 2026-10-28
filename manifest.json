@@ -16,8 +16,8 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "b204b45d71ab0244382753ca32174743b051883009b2e9a947909ba6da460e2b",
-      "bytes": 934
+      "sha256": "b50c828dc1490c550ca17d36e78df03bfdbd7e10dea3f0398c795871fb1afed7",
+      "bytes": 937
     },
     {
       "path": "CHANGELOG.md",
@@ -31,13 +31,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "90bd09fffb5b39b6f791063064749af17144f3fec175b11efb4661348e3191c1",
-      "bytes": 4749
+      "sha256": "5bde2cc0eb2213c95ff79daa60938bc1b5e76da995e1672e1eb5f6274a93d6d8",
+      "bytes": 4730
     },
     {
       "path": "app.js",
-      "sha256": "931dedd2c12c501b4866af451f429e48d2df42c8e245041d2b73139cc7cf3299",
-      "bytes": 48124
+      "sha256": "7842c88238313444236066bf62d5eceaeb423713bc066fcf6c2f5ef8e9629a1e",
+      "bytes": 48133
     },
     {
       "path": "architecture.svg",
@@ -56,13 +56,13 @@
     },
     {
       "path": "data/programme_data.json",
-      "sha256": "77605b2318b63f064781080f60e49003f0480d31b28ae575dfc2f7161f61e1c9",
-      "bytes": 89025
+      "sha256": "0bda9af0166a5c51ccd1456f51b1515f3dc1c6931fd56e55156bf3140684bb15",
+      "bytes": 89013
     },
     {
       "path": "index.html",
-      "sha256": "122b881f27582e12cbbe3a118d6893ae289b64bf1bb8a2c24d54e9e7b931e110",
-      "bytes": 393179
+      "sha256": "0d233b44a45f9902f34a6f67d0fae43891d99f49cd39bd32e1ef826f3c310038",
+      "bytes": 417360
     },
     {
       "path": "module_to_capability_mapping.pdf",
@@ -91,8 +91,8 @@
     },
     {
       "path": "sources/01_target_biology_review.pdf",
-      "sha256": "78152d1bef0390a636bbdd3d97dee7edb91f2ddbed46018ee3b2f939a59b68ee",
-      "bytes": 5170
+      "sha256": "48755bc91bfb75a7421a77f257368ecce85602568e5745cbb87de3e50591d8f6",
+      "bytes": 9041
     },
     {
       "path": "sources/02_efficacy_results.csv",
@@ -101,28 +101,28 @@
     },
     {
       "path": "sources/03_safety_update.pptx",
-      "sha256": "c8ce6c4a4e5e67517e2b3613311bfc988a0a341c8a294a2ab3dc49fed3870e3f",
-      "bytes": 32263
+      "sha256": "1af5bc91f93a004f5110661522b5f3f2e8c2992bde52d077e459357efc98d309",
+      "bytes": 32256
     },
     {
       "path": "sources/04_cmc_summary.pdf",
-      "sha256": "2c3705ef60895dcdd01e407425c61b88bf27fd8ef703a3b73973d86bb5e92142",
-      "bytes": 2959
+      "sha256": "aab001a89eeaab26f0f8a3f67d9e2f54d9bb44ae6c0cad8f64c0aee597f8fed4",
+      "bytes": 8019
     },
     {
       "path": "sources/05_governance_record.docx",
-      "sha256": "7ecdbd2a13c098834a42608383fc7219ba746309c4e7d297bdfaf7e17d7f5ce1",
-      "bytes": 36183
+      "sha256": "f77777d0f72aeca9fe14c5a5648a36b77e82cbe313238a8866922d2ed2d3529e",
+      "bytes": 36176
     },
     {
       "path": "sources/06_competitive_intelligence_brief.pdf",
-      "sha256": "3a3964d58e64e7a86211f3859a243868e57240bf1d33fb4c0124f9b665adf487",
-      "bytes": 3905
+      "sha256": "d03d74933eeeef69b3f73a535018a5f8e7c35907599eafc7e35ef97b5c924829",
+      "bytes": 9393
     },
     {
       "path": "sources/07_company_strategy_memo.pdf",
-      "sha256": "25fa683bdb989257f3a23a34398a21604f40afc028ec46df1ce14dbc4d778287",
-      "bytes": 2810
+      "sha256": "61ce219cc51a6df6a83333bce40c732e6c45282ff594e707d92410d9f1fb2ecb",
+      "bytes": 6561
     },
     {
       "path": "src/embedded_resources.json",

@@ -1,6 +1,6 @@
 # Working on this demonstrator
 
-Keep the scientific scenario illustrative. The source pack contains synthetic AURORA material; client discovery documents and statements of work do not belong in this repository.
+Keep the scientific scenario illustrative. The source pack contains synthetic programme material; client discovery documents and statements of work do not belong in this repository.
 
 Edit `app.js`, `styles.css`, `src/index.template.html`, and the canonical JSON files. Build with `python3 tools/build.py`, then check with `python3 tools/build.py --check`. Include regenerated files in the same commit. Preserve the ability to open `index.html` directly without network access.
 
